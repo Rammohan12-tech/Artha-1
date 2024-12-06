@@ -1,0 +1,73 @@
+{
+  "itemId" : "_4m0WEMHYEe2s9qICryj3ig",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_GftBAyW8Ee6-DOSa3Omt8Q",
+      "name" : "ProcessControl_DataSourceName"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_hzoP0QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_hzoP1QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_hzoP0wetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_hzoP0AetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Schema"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_GftBByW8Ee6-DOSa3Omt8Q",
+      "name" : "ProcessControl_DataSourceName"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_PdSPEjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_PdSPFjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_PdSPFDDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_PdSPETDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Schema"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_GftBCyW8Ee6-DOSa3Omt8Q",
+      "name" : "ProcessControl_DataSourceName"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_ZegbMiSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_ZegbNiSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_ZegbNCSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_ZegbMSSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_Schema"
+    } ]
+  } ]
+}

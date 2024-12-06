@@ -1,0 +1,118 @@
+{
+  "itemId" : "_QdSAQJrzEe6gV_KjTFSKNQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_AJ2-U_oyEe2Cu_1EnuXiBw",
+    "parameterList" : [ {
+      "id" : "_JZyCQ8KwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_JZyCQcKwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_JZyCQsKwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_qruF4KRxEe6q8vW6e0CIXQ",
+    "parameterList" : [ {
+      "id" : "_SJodx3oMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_AdditionalParams"
+    }, {
+      "id" : "_SJodxXoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Database"
+    }, {
+      "id" : "_SJodxHoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Login"
+    }, {
+      "id" : "_SJodw3oMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Password"
+    }, {
+      "id" : "_SJodwXoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Port"
+    }, {
+      "id" : "_SJodxnoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Schema"
+    }, {
+      "id" : "_SJodwnoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Server"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_AJ2-U_oyEe2Cu_1EnuXiBw",
+    "parameterList" : [ {
+      "id" : "_7rSKIwxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_7rSKIQxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_7rSKIgxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Port"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_qruF4KRxEe6q8vW6e0CIXQ",
+    "parameterList" : [ {
+      "id" : "_SJod0HoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_AdditionalParams"
+    }, {
+      "id" : "_SJodznoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Database"
+    }, {
+      "id" : "_SJodzXoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Login"
+    }, {
+      "id" : "_SJodzHoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Password"
+    }, {
+      "id" : "_SJodynoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Port"
+    }, {
+      "id" : "_SJodz3oMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Schema"
+    }, {
+      "id" : "_SJody3oMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_AJ2-U_oyEe2Cu_1EnuXiBw",
+    "parameterList" : [ {
+      "id" : "_SQ7hUwxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_SQ7hUQxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_SQ7hUgxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Port"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_qruF4KRxEe6q8vW6e0CIXQ",
+    "parameterList" : [ {
+      "id" : "_SJod2XoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_AdditionalParams"
+    }, {
+      "id" : "_SJod13oMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Database"
+    }, {
+      "id" : "_SJod1noMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Login"
+    }, {
+      "id" : "_SJod1XoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Password"
+    }, {
+      "id" : "_SJod03oMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Port"
+    }, {
+      "id" : "_SJod2HoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Schema"
+    }, {
+      "id" : "_SJod1HoMEe6J3Lk8cTtQ2Q",
+      "name" : "SFDC_DB_Conn_Server"
+    } ]
+  } ]
+}

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" name="Batch_ID" prompt="Batch_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_7rJj8P-hEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="C_MDM_AMC_AdditionalParams" prompt="C_MDM_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="" internalId="_Q2hWIDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Database" prompt="C_MDM_AMC_Database?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="postgres" internalId="_Q2hWITUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Login" prompt="C_MDM_AMC_Login?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="admin_cmdm_core" internalId="_Q2hWIjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Password" prompt="C_MDM_AMC_Password?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_Password" value="enc:system.encryption.key.v1:vRaAUueCeoMgVGNIaAPY+oZjcTZi0Qc8PdK5Z+gvmS+cJFzsFyZiyeSYsG8=" internalId="_Q2hWIzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Port" prompt="C_MDM_AMC_Port?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="5432" internalId="_Q2hWJDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Schema" prompt="C_MDM_AMC_Schema?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="amc" internalId="_Q2hWJTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Server" prompt="C_MDM_AMC_Server?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_Q2hWJjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Accept" prompt="Accept?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_Q2jLUDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Api_URL" prompt="Api_URL?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://api-private-gateway-api.axa-kt-th-preprod-mpl-int.scarlet.ap-southeast-1.aws.openpaas.axa-cloud.com/v1.2/email/send" internalId="_Q2jLUTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="client_id" prompt="client_id?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="apiconso-mdm-svc" internalId="_Q2jLUjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="client_secret" prompt="client_secret?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="e7936411-3b7c-48f4-bda3-ae87ebd06fc2" internalId="_Q2jLUzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="consumerName" prompt="consumerName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="CustomerDB" internalId="_Q2jLVDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Content_Type" prompt="Content_Type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_Q2jLVTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_Boolean" value="false" internalId="_Q2jLVjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="grant_type" prompt="grant_type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_credentials" internalId="_Q2jLVzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Job_In_Question" prompt="Job_In_Question?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_Q2jLWDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="KeyStore_Password" prompt="KeyStore_Password?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_Password" value="enc:system.encryption.key.v1:648PIKK+m4pEIg+zWrjQ7iB1/k4DWAUP7tM61kzNMXyY1L1T" internalId="_Q2jLWTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_API_Token" prompt="Mail_API_Token?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_Q2jLWjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_BCC" prompt="Mail_BCC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="saimadhu.vallappu@thinkartha.com,karthik.soundararajan@thinkartha.com" internalId="_Q2jLWzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_CC" prompt="Mail_CC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="ram.mohan@krungthai-axa.co.th" internalId="_Q2jLXDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_From" prompt="Mail_From?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_Q2jLXTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Name" prompt="Mail_Keystorefile_Name?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="key_store_NpProd.jks" internalId="_Q2jLXjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Path" prompt="Mail_Keystorefile_Path?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="C:\Users\Rammoh\OneDrive - AXA\Documents" internalId="_Q2jLXzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_Sender" prompt="Mail_Sender?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_Q2jLYDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_To" prompt="Mail_To?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="sukjit.chongkijthavorn@krungthai-axa.co.th" internalId="_Q2jLYTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="msgId" prompt="msgId?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="ktaxa-mdm-64101ea9e03dc06821090f53" internalId="_Q2jLYjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="outhToken" prompt="outhToken?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_id=apiconso-mdm-svc&amp;client_secret=e7936411-3b7c-48f4-bda3-ae87ebd06fc2&amp;grant_type=client_credentials" internalId="_Q2jLYzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="SenderName" prompt="SenderName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_Q2jLZDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Token_Api" prompt="Token_Api?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://keycloak.uat.krungthai-axa.co.th/auth/realms/apiconso/protocol/openid-connect/token" internalId="_Q2jLZTUDEe-Dncx8iMpLbQ"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter comment="" name="Batch_ID" prompt="Batch_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_7rJj8f-hEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="C_MDM_AMC_AdditionalParams" prompt="C_MDM_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="" internalId="_Q2jLZjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Database" prompt="C_MDM_AMC_Database?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="postgres" internalId="_Q2jLZzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Login" prompt="C_MDM_AMC_Login?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="admin_cmdm_core" internalId="_Q2jLaDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Password" prompt="C_MDM_AMC_Password?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_Password" value="enc:system.encryption.key.v1:DTWw+KCvQ0Nj0eD82J8Xv2GQasOEAwU0A5eoV+nVZMPboQLXSxZn8kC58rI=" internalId="_Q2jLaTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Port" prompt="C_MDM_AMC_Port?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="5432" internalId="_Q2jLajUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Schema" prompt="C_MDM_AMC_Schema?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="amc" internalId="_Q2jLazUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Server" prompt="C_MDM_AMC_Server?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_Q2jLbDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Accept" prompt="Accept?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_Q2jLbTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Api_URL" prompt="Api_URL?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://api-private-gateway-api.axa-kt-th-preprod-mpl-int.scarlet.ap-southeast-1.aws.openpaas.axa-cloud.com/v1.2/email/send" internalId="_Q2jLbjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="client_id" prompt="client_id?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="apiconso-mdm-svc" internalId="_Q2jLbzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="client_secret" prompt="client_secret?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="e7936411-3b7c-48f4-bda3-ae87ebd06fc2" internalId="_Q2jLcDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="consumerName" prompt="consumerName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="CustomerDB" internalId="_Q2jLcTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Content_Type" prompt="Content_Type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_Q2jLcjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_Boolean" value="false" internalId="_Q2jLczUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="grant_type" prompt="grant_type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_credentials" internalId="_Q2jLdDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Job_In_Question" prompt="Job_In_Question?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_Q2jLdTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="KeyStore_Password" prompt="KeyStore_Password?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_Password" value="enc:system.encryption.key.v1:haM7BDim4OKfq60kIN+DNlRxCTRAD2pPMV7DLTM7qpbw8M8v" internalId="_Q2jLdjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_API_Token" prompt="Mail_API_Token?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_Q2jyYDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_BCC" prompt="Mail_BCC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="saimadhu.vallappu@thinkartha.com,karthik.soundararajan@thinkartha.com" internalId="_Q2jyYTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_CC" prompt="Mail_CC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="balram.vedavyas@thinkartha.com,ram.mohan@krungthai-axa.co.th,thanyachanok.sajjapornvarothai@krungthai-axa.co.th" internalId="_Q2jyYjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_From" prompt="Mail_From?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_Q2jyYzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Name" prompt="Mail_Keystorefile_Name?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="key_store_NpProd.jks" internalId="_Q2jyZDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Path" prompt="Mail_Keystorefile_Path?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="C:\Users\Rammoh\OneDrive - AXA\Documents" internalId="_Q2jyZTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_Sender" prompt="Mail_Sender?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_Q2jyZjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_To" prompt="Mail_To?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="sukjit.chongkijthavorn@krungthai-axa.co.th" internalId="_Q2jyZzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="msgId" prompt="msgId?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="ktaxa-mdm-64101ea9e03dc06821090f53" internalId="_Q2jyaDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="outhToken" prompt="outhToken?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_id=apiconso-mdm-svc&amp;client_secret=e7936411-3b7c-48f4-bda3-ae87ebd06fc2&amp;grant_type=client_credentials" internalId="_Q2jyaTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="SenderName" prompt="SenderName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_Q2jyajUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Token_Api" prompt="Token_Api?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://keycloak.uat.krungthai-axa.co.th/auth/realms/apiconso/protocol/openid-connect/token" internalId="_Q2jyazUDEe-Dncx8iMpLbQ"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter comment="" name="Batch_ID" prompt="Batch_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_7rKLAP-hEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="C_MDM_AMC_AdditionalParams" prompt="C_MDM_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="" internalId="_Q2jybDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Database" prompt="C_MDM_AMC_Database?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="postgres" internalId="_Q2jybTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Login" prompt="C_MDM_AMC_Login?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="custdbetlusermdm" internalId="_Q2jybjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Password" prompt="C_MDM_AMC_Password?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_Password" value="enc:system.encryption.key.v1:TsEEge+PkEZhJATcgw9bUQdBNERVm9wPsTkXXthKwNo5Kk+4nkHdsg6Lm/sTcwxZmD+bcw==" internalId="_Q2jybzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Port" prompt="C_MDM_AMC_Port?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="5432" internalId="_Q2jycDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Schema" prompt="C_MDM_AMC_Schema?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="amc" internalId="_Q2jycTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="C_MDM_AMC_Server" prompt="C_MDM_AMC_Server?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="w-kt-th-cmdm-core-as1-pr-postgres01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com" internalId="_Q2jycjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Accept" prompt="Accept?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_Q2jyczUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Api_URL" prompt="Api_URL?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://gateway-api.axa-kt-th-prod-mpl-int.scarlet.ap-southeast-1.aws.openpaas.axa-cloud.com/v1.2/email/send" internalId="_Q2jydDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="client_id" prompt="client_id?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="apiconso-mdm-svc" internalId="_Q2jydTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="client_secret" prompt="client_secret?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="bae4396e-939d-4e3d-8259-5f1192202ae8" internalId="_Q2jydjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="consumerName" prompt="consumerName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="CustomerDB" internalId="_Q2jydzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Content_Type" prompt="Content_Type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_Q2jyeDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_Boolean" value="false" internalId="_Q2jyeTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="grant_type" prompt="grant_type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_credentials" internalId="_Q2jyejUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Job_In_Question" prompt="Job_In_Question?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_Q2jyezUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="KeyStore_Password" prompt="KeyStore_Password?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_Password" value="enc:system.encryption.key.v1:47qgm8SjNRaGm2gj61qcI9uR9kb0j7dsELgbjJiA5nq5Ft59" internalId="_Q2jyfDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_API_Token" prompt="Mail_API_Token?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_Q2jyfTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_BCC" prompt="Mail_BCC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="saimadhu.vallappu@thinkartha.com,karthik.soundararajan@thinkartha.com" internalId="_Q2jyfjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_CC" prompt="Mail_CC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="balram.vedavyas@thinkartha.com,ram.mohan@krungthai-axa.co.th,thanyachanok.sajjapornvarothai@krungthai-axa.co.th" internalId="_Q2jyfzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_From" prompt="Mail_From?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_Q2jygDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Name" prompt="Mail_Keystorefile_Name?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="key_store.JKS" internalId="_Q2jygTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Path" prompt="Mail_Keystorefile_Path?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="/opt/talend" internalId="_Q2jygjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_Sender" prompt="Mail_Sender?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_Q2jygzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Mail_To" prompt="Mail_To?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="sukjit.chongkijthavorn@krungthai-axa.co.th" internalId="_Q2jyhDUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="msgId" prompt="msgId?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="ktaxa-mdm-64101ea9e03dc06821090f53" internalId="_Q2jyhTUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="outhToken" prompt="outhToken?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_id=apiconso-mdm-svc&amp;client_secret=bae4396e-939d-4e3d-8259-5f1192202ae8&amp;grant_type=client_credentials" internalId="_Q2jyhjUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="SenderName" prompt="SenderName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_Q2jyhzUDEe-Dncx8iMpLbQ"/>
+    <contextParameter comment="" name="Token_Api" prompt="Token_Api?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://keycloak.krungthai-axa.co.th/auth/realms/apiconso/protocol/openid-connect/token" internalId="_Q2jyiDUDEe-Dncx8iMpLbQ"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:WdWe+AqgvLSQJ7zZUX/5z1UpZl7eaGU/PhXZM/GO" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;I:/Users/KarthikSou/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_0ggH8FZ4Ee6mLs39OBeeXg" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tPostgresqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="URL" value="" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.C_MDM_AMC_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.C_MDM_AMC_Port"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.C_MDM_AMC_Database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.C_MDM_AMC_Database" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.C_MDM_AMC_AdditionalParams" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.C_MDM_AMC_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.C_MDM_AMC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:g3MOkNg4fqfLnuPiuZR98pRSKRH1i/I2yNINN9WR5tFcW6Dpfcf7pVqOWcYoDiVJO99J1rT4"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statcatcher&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logcatcher&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;flowmeter&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_DXcvgCeREe6Wca1QY60H1w" name="DataOperation"/>
+    <routinesParameter id="_DX6pkCeREe6Wca1QY60H1w" name="Mathematical"/>
+    <routinesParameter id="_DYTEECeREe6Wca1QY60H1w" name="Numeric"/>
+    <routinesParameter id="_DYgfcCeREe6Wca1QY60H1w" name="Relational"/>
+    <routinesParameter id="_DUoFACeREe6Wca1QY60H1w" name="SQLike"/>
+    <routinesParameter id="_DY0BcCeREe6Wca1QY60H1w" name="StringHandling"/>
+    <routinesParameter id="_DZEgICeREe6Wca1QY60H1w" name="TalendDataGenerator"/>
+    <routinesParameter id="_DZR7gCeREe6Wca1QY60H1w" name="TalendDate"/>
+    <routinesParameter id="_DZ1VICeREe6Wca1QY60H1w" name="TalendStringUtil"/>
+    <routinesParameter id="_DZhzICeREe6Wca1QY60H1w" name="TalendString"/>
+  </parameters>
+  <node componentName="tREST" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tREST_2" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="context.Api_URL"/>
+    <elementParameter field="CLOSED_LIST" name="METHOD" value="POST"/>
+    <elementParameter field="TABLE" name="HEADERS">
+      <elementValue elementRef="NAME" value="&quot;Content-Type&quot;"/>
+      <elementValue elementRef="VALUE" value="context.Content_Type"/>
+      <elementValue elementRef="NAME" value="&quot;Accept&quot;"/>
+      <elementValue elementRef="VALUE" value="context.Accept"/>
+      <elementValue elementRef="NAME" value="&quot;Authorization&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;Bearer &quot;+context.Mail_API_Token"/>
+      <elementValue elementRef="NAME" value="&quot;consumerName&quot;"/>
+      <elementValue elementRef="VALUE" value="context.consumerName"/>
+      <elementValue elementRef="NAME" value="&quot;msgId&quot;"/>
+      <elementValue elementRef="VALUE" value="context.msgId"/>
+      <elementValue elementRef="NAME" value="&quot;sender&quot;"/>
+      <elementValue elementRef="VALUE" value="context.Mail_Sender"/>
+    </elementParameter>
+    <elementParameter field="MEMO" name="BODY" value="&quot;{&#xD;&#xA;  \&quot;mailTo\&quot;: \&quot;&quot;+context.Mail_To+&quot;\&quot;,&#xD;&#xA;  \&quot;sendCc\&quot;: \&quot;&quot;+context.Mail_CC+&quot;\&quot;,&#xD;&#xA;  \&quot;sendBcc\&quot;: \&quot;&quot;+context.Mail_BCC+&quot;\&quot;,&#xD;&#xA;  \&quot;subjectMail\&quot;: \&quot;Failed TMC Task\&quot;,&#xD;&#xA;  \&quot;contentMail\&quot;: \&quot;&lt;html>&lt;h2> Hello, &lt;br>&lt;br>Job '&quot;+context.Job_In_Question+&quot;' has failed. Details are as follows:&lt;br>&lt;br>     Exception Occured at: '&quot; +  context.Error_TimeOf    + &quot;'&lt;br>     Exception Type: '&quot; +  context.Error_Type   + &quot;'&lt;br>   In Component: '&quot; +  context.Error_Origin    + &quot;'. &lt;br>&lt;br>Please contact the C-MDM application support team for more details.&lt;br>  &lt;p>From MDM Administrator Account&lt;/p>   &lt;p> &lt;i>Note&lt;/i> : This email has been auto-generated. Please do not 'Reply' or 'Reply all'.&lt;/p> &lt;/h2>&lt;/html>\&quot;&#xD;&#xA;}&quot;&#xD;&#xA;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tREST_2">
+      <column key="false" length="0" name="Body" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="ERROR_CODE" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Body"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ERROR_CODE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_2">
+      <column defaultValue="" key="false" length="0" name="Body" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="ERROR_CODE" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSetKeystore" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetKeystore_2" show="false"/>
+    <elementParameter field="RADIO" name="SET_TRUSTSTORE" value="true"/>
+    <elementParameter field="RADIO" name="NEED_CLIENT_AUTH" value="false"/>
+    <elementParameter field="RADIO" name="SET_TRUSTSTORE_KEYSTORE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="TRUSTSTORE_TYPE" value="JKS"/>
+    <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" value="context.Mail_Keystorefile_Path+    &quot;/&quot;+context.Mail_Keystorefile_Name"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="enc:system.encryption.key.v1:Mv0TTnMRwO8UHxeTCzzag2E14J+YHYRi1ymwcDiDci3gjuyigG3sOU8q6ikF4UExNjFqQTg="/>
+    <elementParameter field="CLOSED_LIST" name="KEYSTORE_TYPE" value="JKS" show="false"/>
+    <elementParameter field="FILE" name="SSL_KEYSTORE" value="&quot;C:/client.keystore&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" value="enc:system.encryption.key.v1:NkZnjs0ATbmwYQtGz2Qrpz9nMUS66V2BuYs6qopMrDFm0TL1dtk=" show="false"/>
+    <elementParameter field="CHECK" name="VERIFY_NAME" value="true"/>
+    <elementParameter field="CHECK" name="USE_SSLCONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tREST_2" offsetLabelX="0" offsetLabelY="0" source="tREST_2" target="tLogRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tSetKeystore_2" offsetLabelX="0" offsetLabelY="0" source="tSetKeystore_2" target="tREST_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tREST_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetKeystore_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

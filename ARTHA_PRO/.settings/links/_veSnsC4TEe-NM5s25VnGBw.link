@@ -1,0 +1,823 @@
+{
+  "itemId" : "_veSnsC4TEe-NM5s25VnGBw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_HdokcLiFEe2fvrK1lthLOg",
+    "parameterList" : [ {
+      "id" : "_jMeJJNQHEe2bnbkBEigxTA",
+      "name" : "SenderName"
+    }, {
+      "id" : "_8I3AwMKZEe2HltkTjkEXnQ",
+      "name" : "processName"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_S6F90F-TEe6QlclCLIInYQ",
+    "parameterList" : [ {
+      "id" : "_aJwCcF-TEe6QlclCLIInYQ",
+      "name" : "startId"
+    }, {
+      "id" : "_aJwCcV-TEe6QlclCLIInYQ",
+      "name" : "endId"
+    }, {
+      "id" : "_aJwCcl-TEe6QlclCLIInYQ",
+      "name" : "Batch_Size"
+    }, {
+      "id" : "_aJwCc1-TEe6QlclCLIInYQ",
+      "name" : "Iteration"
+    }, {
+      "id" : "_WEQzwF-TEe6QlclCLIInYQ",
+      "name" : "BigBatchSize"
+    }, {
+      "id" : "_S8298F-TEe6QlclCLIInYQ",
+      "name" : "BatchControl_Table"
+    }, {
+      "id" : "_djiBsF-TEe6QlclCLIInYQ",
+      "name" : "NumberOfPipeLines"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_jTZxYCS1Ee6tmY1saMxpDg",
+    "parameterList" : [ {
+      "id" : "_bnFi1LiBEe2fvrK1lthLOg",
+      "name" : "C_MDM_AMC_AdditionalParams"
+    }, {
+      "id" : "_bnFi1biBEe2fvrK1lthLOg",
+      "name" : "C_MDM_AMC_Database"
+    }, {
+      "id" : "_bnFi07iBEe2fvrK1lthLOg",
+      "name" : "C_MDM_AMC_Login"
+    }, {
+      "id" : "_bnFi1riBEe2fvrK1lthLOg",
+      "name" : "C_MDM_AMC_Password"
+    }, {
+      "id" : "_bnFi17iBEe2fvrK1lthLOg",
+      "name" : "C_MDM_AMC_Port"
+    }, {
+      "id" : "_bnFi0biBEe2fvrK1lthLOg",
+      "name" : "C_MDM_AMC_Schema"
+    }, {
+      "id" : "_bnFi0riBEe2fvrK1lthLOg",
+      "name" : "C_MDM_AMC_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_H9VVENxcEe2c3pihwwSSfQ",
+    "parameterList" : [ {
+      "id" : "_bnFi1LiBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_AdditionalParams"
+    }, {
+      "id" : "_bnFi1biBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_Database"
+    }, {
+      "id" : "_bnFi07iBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_Login"
+    }, {
+      "id" : "_bnFi17iBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_Port"
+    }, {
+      "id" : "_bnFi0biBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_Schema"
+    }, {
+      "id" : "_bnFi0riBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_bmfs8LiBEe2fvrK1lthLOg",
+    "parameterList" : [ {
+      "id" : "_bnFi1LiBEe2fvrK1lthLOg",
+      "name" : "C_MDM_ProcessControl_AdditionalParams"
+    }, {
+      "id" : "_bnFi1biBEe2fvrK1lthLOg",
+      "name" : "C_MDM_ProcessControl_Database"
+    }, {
+      "id" : "_bnFi07iBEe2fvrK1lthLOg",
+      "name" : "C_MDM_ProcessControl_Login"
+    }, {
+      "id" : "_bnFi1riBEe2fvrK1lthLOg",
+      "name" : "C_MDM_ProcessControl_Password"
+    }, {
+      "id" : "_bnFi17iBEe2fvrK1lthLOg",
+      "name" : "C_MDM_ProcessControl_Port"
+    }, {
+      "id" : "_bnFi0biBEe2fvrK1lthLOg",
+      "name" : "C_MDM_ProcessControl_Schema"
+    }, {
+      "id" : "_bnFi0riBEe2fvrK1lthLOg",
+      "name" : "C_MDM_ProcessControl_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_mGeWcNVXEe2pctSpYpj7Mw",
+    "parameterList" : [ {
+      "id" : "_bnFi1LiBEe2fvrK1lthLOg",
+      "name" : "PStaging_AdditionalParams"
+    }, {
+      "id" : "_bnFi1biBEe2fvrK1lthLOg",
+      "name" : "PStaging_Database"
+    }, {
+      "id" : "_bnFi07iBEe2fvrK1lthLOg",
+      "name" : "PStaging_Login"
+    }, {
+      "id" : "_bnFi1riBEe2fvrK1lthLOg",
+      "name" : "PStaging_Password"
+    }, {
+      "id" : "_bnFi17iBEe2fvrK1lthLOg",
+      "name" : "PStaging_Port"
+    }, {
+      "id" : "_bnFi0biBEe2fvrK1lthLOg",
+      "name" : "PStaging_Schema"
+    }, {
+      "id" : "_bnFi0riBEe2fvrK1lthLOg",
+      "name" : "PStaging_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_UiRDwLhWEe2fvrK1lthLOg",
+    "parameterList" : [ {
+      "id" : "_OBy4ArhkEe2fvrK1lthLOg",
+      "name" : "Staging_AdditionalParams"
+    }, {
+      "id" : "_OBy4BbhkEe2fvrK1lthLOg",
+      "name" : "Staging_Database"
+    }, {
+      "id" : "_OBy4BrhkEe2fvrK1lthLOg",
+      "name" : "Staging_Login"
+    }, {
+      "id" : "_OBy4A7hkEe2fvrK1lthLOg",
+      "name" : "Staging_Password"
+    }, {
+      "id" : "_OBy4AbhkEe2fvrK1lthLOg",
+      "name" : "Staging_Port"
+    }, {
+      "id" : "_OBy4B7hkEe2fvrK1lthLOg",
+      "name" : "Staging_Schema"
+    }, {
+      "id" : "_OBy4BLhkEe2fvrK1lthLOg",
+      "name" : "Staging_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_AEZDoCifEe6Wca1QY60H1w",
+      "name" : "AMC_DataSourceName"
+    }, {
+      "id" : "_GftBAyW8Ee6-DOSa3Omt8Q",
+      "name" : "ProcessControl_DataSourceName"
+    }, {
+      "id" : "_GftBAiW8Ee6-DOSa3Omt8Q",
+      "name" : "PStaging_DataSourceName"
+    }, {
+      "id" : "_GftBASW8Ee6-DOSa3Omt8Q",
+      "name" : "Staging_DataSourceName"
+    }, {
+      "id" : "_GftBACW8Ee6-DOSa3Omt8Q",
+      "name" : "BusinessApplicationName"
+    }, {
+      "id" : "_AEZDoSifEe6Wca1QY60H1w",
+      "name" : "MDMMaster_DataSourceName"
+    }, {
+      "id" : "_68PTUF4uEe6YOqT5_tD7tQ",
+      "name" : "MDMMasterConn_Name"
+    }, {
+      "id" : "_5l1hEF4uEe6YOqT5_tD7tQ",
+      "name" : "IMDMConn_Name"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_wv0FwECZEe699LJxJYFrmA",
+    "parameterList" : [ {
+      "id" : "_wwc-8UCZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_AdditionalParams"
+    }, {
+      "id" : "_wwc-9UCZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Database"
+    }, {
+      "id" : "_wwc-80CZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Login"
+    }, {
+      "id" : "_wwc-9ECZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Password"
+    }, {
+      "id" : "_wwc-8kCZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Port"
+    }, {
+      "id" : "_wwc-9kCZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Schema"
+    }, {
+      "id" : "_wwc-90CZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_HPD1ANVlEe2pctSpYpj7Mw",
+    "parameterList" : [ {
+      "id" : "_z5YKsTylEeyKF9B1hFFEcg",
+      "name" : "Mail_From"
+    }, {
+      "id" : "_z5YKsjylEeyKF9B1hFFEcg",
+      "name" : "Mail_To"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_AJ2-U_oyEe2Cu_1EnuXiBw",
+    "parameterList" : [ {
+      "id" : "_JZyCQ8KwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_JZyCQcKwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_kcOYEMK0Ee2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_DBType"
+    }, {
+      "id" : "_JZyCRsKwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Login"
+    }, {
+      "id" : "_JZyCRMKwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Password"
+    }, {
+      "id" : "_JZyCQsKwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_JZyCRcKwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Schema"
+    }, {
+      "id" : "_JZyCR8KwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "__8188GciEe64lexzV0cw9A",
+    "parameterList" : [ {
+      "id" : "__9QMoWciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Port"
+    }, {
+      "id" : "__9QMo2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Server"
+    }, {
+      "id" : "__9QMp2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_AdditionalParams"
+    }, {
+      "id" : "__9QMpGciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Database"
+    }, {
+      "id" : "__9QMomciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Schema"
+    }, {
+      "id" : "__9QMpWciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Login"
+    }, {
+      "id" : "__9QMpmciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Password"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_HdokcLiFEe2fvrK1lthLOg",
+    "parameterList" : [ {
+      "id" : "_jMeJWtQHEe2bnbkBEigxTA",
+      "name" : "SenderName"
+    }, {
+      "id" : "_8I3Aw8KZEe2HltkTjkEXnQ",
+      "name" : "processName"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_S6F90F-TEe6QlclCLIInYQ",
+    "parameterList" : [ {
+      "id" : "_aJwCdF-TEe6QlclCLIInYQ",
+      "name" : "startId"
+    }, {
+      "id" : "_aJwCdV-TEe6QlclCLIInYQ",
+      "name" : "endId"
+    }, {
+      "id" : "_aJwCdl-TEe6QlclCLIInYQ",
+      "name" : "Batch_Size"
+    }, {
+      "id" : "_aJwCd1-TEe6QlclCLIInYQ",
+      "name" : "Iteration"
+    }, {
+      "id" : "_WEQzwV-TEe6QlclCLIInYQ",
+      "name" : "BigBatchSize"
+    }, {
+      "id" : "_S83lAF-TEe6QlclCLIInYQ",
+      "name" : "BatchControl_Table"
+    }, {
+      "id" : "_djiBsV-TEe6QlclCLIInYQ",
+      "name" : "NumberOfPipeLines"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_jTZxYCS1Ee6tmY1saMxpDg",
+    "parameterList" : [ {
+      "id" : "_6_PQ_AL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_AdditionalParams"
+    }, {
+      "id" : "_6_PQ_QL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Database"
+    }, {
+      "id" : "_6_PQ-wL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Login"
+    }, {
+      "id" : "_6_PQ_gL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Password"
+    }, {
+      "id" : "_6_PQ_wL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Port"
+    }, {
+      "id" : "_6_PQ-QL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Schema"
+    }, {
+      "id" : "_6_PQ-gL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_H9VVENxcEe2c3pihwwSSfQ",
+    "parameterList" : [ {
+      "id" : "_IlPj7AMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_AdditionalParams"
+    }, {
+      "id" : "_IlPj7QMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Database"
+    }, {
+      "id" : "_IlPj6wMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Login"
+    }, {
+      "id" : "_IlPj7wMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Port"
+    }, {
+      "id" : "_IlPj6QMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Schema"
+    }, {
+      "id" : "_IlPj6gMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_bmfs8LiBEe2fvrK1lthLOg",
+    "parameterList" : [ {
+      "id" : "_6_PQ_AL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_AdditionalParams"
+    }, {
+      "id" : "_6_PQ_QL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Database"
+    }, {
+      "id" : "_6_PQ-wL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Login"
+    }, {
+      "id" : "_6_PQ_gL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Password"
+    }, {
+      "id" : "_6_PQ_wL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Port"
+    }, {
+      "id" : "_6_PQ-QL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Schema"
+    }, {
+      "id" : "_6_PQ-gL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_mGeWcNVXEe2pctSpYpj7Mw",
+    "parameterList" : [ {
+      "id" : "_0EcwfAL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_AdditionalParams"
+    }, {
+      "id" : "_0EcwfQL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Database"
+    }, {
+      "id" : "_0EcwewL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Login"
+    }, {
+      "id" : "_0EcwfgL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Password"
+    }, {
+      "id" : "_0EcwfwL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Port"
+    }, {
+      "id" : "_0EcweQL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Schema"
+    }, {
+      "id" : "_0EcwegL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_UiRDwLhWEe2fvrK1lthLOg",
+    "parameterList" : [ {
+      "id" : "_OBy4GrhkEe2fvrK1lthLOg",
+      "name" : "Staging_AdditionalParams"
+    }, {
+      "id" : "_OBy4HbhkEe2fvrK1lthLOg",
+      "name" : "Staging_Database"
+    }, {
+      "id" : "_OBy4HrhkEe2fvrK1lthLOg",
+      "name" : "Staging_Login"
+    }, {
+      "id" : "_OBy4G7hkEe2fvrK1lthLOg",
+      "name" : "Staging_Password"
+    }, {
+      "id" : "_OBy4GbhkEe2fvrK1lthLOg",
+      "name" : "Staging_Port"
+    }, {
+      "id" : "_OBy4H7hkEe2fvrK1lthLOg",
+      "name" : "Staging_Schema"
+    }, {
+      "id" : "_OBy4HLhkEe2fvrK1lthLOg",
+      "name" : "Staging_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_AEZDpCifEe6Wca1QY60H1w",
+      "name" : "AMC_DataSourceName"
+    }, {
+      "id" : "_GftBCyW8Ee6-DOSa3Omt8Q",
+      "name" : "ProcessControl_DataSourceName"
+    }, {
+      "id" : "_GftBCiW8Ee6-DOSa3Omt8Q",
+      "name" : "PStaging_DataSourceName"
+    }, {
+      "id" : "_GftBCSW8Ee6-DOSa3Omt8Q",
+      "name" : "Staging_DataSourceName"
+    }, {
+      "id" : "_GftBCCW8Ee6-DOSa3Omt8Q",
+      "name" : "BusinessApplicationName"
+    }, {
+      "id" : "_AEZDpSifEe6Wca1QY60H1w",
+      "name" : "MDMMaster_DataSourceName"
+    }, {
+      "id" : "_68PTUl4uEe6YOqT5_tD7tQ",
+      "name" : "MDMMasterConn_Name"
+    }, {
+      "id" : "_5l1hEl4uEe6YOqT5_tD7tQ",
+      "name" : "IMDMConn_Name"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_wv0FwECZEe699LJxJYFrmA",
+    "parameterList" : [ {
+      "id" : "_OBwpqVgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_AdditionalParams"
+    }, {
+      "id" : "_OBwprVgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Database"
+    }, {
+      "id" : "_OBwpq1gDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Login"
+    }, {
+      "id" : "_OBwprFgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Password"
+    }, {
+      "id" : "_OBwpqlgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Port"
+    }, {
+      "id" : "_OBwprlgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Schema"
+    }, {
+      "id" : "_OBwpr1gDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_HPD1ANVlEe2pctSpYpj7Mw",
+    "parameterList" : [ {
+      "id" : "_z5YKwzylEeyKF9B1hFFEcg",
+      "name" : "Mail_From"
+    }, {
+      "id" : "_z5YKxDylEeyKF9B1hFFEcg",
+      "name" : "Mail_To"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_AJ2-U_oyEe2Cu_1EnuXiBw",
+    "parameterList" : [ {
+      "id" : "_SQ7hUwxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_SQ7hUQxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_SQ7hWAxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_DBType"
+    }, {
+      "id" : "_SQ7hVgxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Login"
+    }, {
+      "id" : "_SQ7hVAxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Password"
+    }, {
+      "id" : "_SQ7hUgxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_SQ7hVQxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Schema"
+    }, {
+      "id" : "_SQ7hVwxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "__8188GciEe64lexzV0cw9A",
+    "parameterList" : [ {
+      "id" : "__9QMs2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Port"
+    }, {
+      "id" : "__9QMtWciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Server"
+    }, {
+      "id" : "__9QMuWciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_AdditionalParams"
+    }, {
+      "id" : "__9QMtmciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Database"
+    }, {
+      "id" : "__9QMtGciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Schema"
+    }, {
+      "id" : "__9QMt2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Login"
+    }, {
+      "id" : "__9QMuGciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Password"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_HdokcLiFEe2fvrK1lthLOg",
+    "parameterList" : [ {
+      "id" : "_jMeJJNQHEe2bnbkBEigxTA",
+      "name" : "SenderName"
+    }, {
+      "id" : "_8I3AwMKZEe2HltkTjkEXnQ",
+      "name" : "processName"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_S6F90F-TEe6QlclCLIInYQ",
+    "parameterList" : [ {
+      "id" : "_aJwCeF-TEe6QlclCLIInYQ",
+      "name" : "startId"
+    }, {
+      "id" : "_aJwCeV-TEe6QlclCLIInYQ",
+      "name" : "endId"
+    }, {
+      "id" : "_aJwCel-TEe6QlclCLIInYQ",
+      "name" : "Batch_Size"
+    }, {
+      "id" : "_aJwCe1-TEe6QlclCLIInYQ",
+      "name" : "Iteration"
+    }, {
+      "id" : "_WEQzwl-TEe6QlclCLIInYQ",
+      "name" : "BigBatchSize"
+    }, {
+      "id" : "_S83lAV-TEe6QlclCLIInYQ",
+      "name" : "BatchControl_Table"
+    }, {
+      "id" : "_djiBsl-TEe6QlclCLIInYQ",
+      "name" : "NumberOfPipeLines"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_jTZxYCS1Ee6tmY1saMxpDg",
+    "parameterList" : [ {
+      "id" : "_6_PQ9AL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_AdditionalParams"
+    }, {
+      "id" : "_6_PQ9QL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Database"
+    }, {
+      "id" : "_6_PQ8wL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Login"
+    }, {
+      "id" : "_6_PQ9gL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Password"
+    }, {
+      "id" : "_6_PQ9wL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Port"
+    }, {
+      "id" : "_6_PQ8QL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Schema"
+    }, {
+      "id" : "_6_PQ8gL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_AMC_Server"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_H9VVENxcEe2c3pihwwSSfQ",
+    "parameterList" : [ {
+      "id" : "_IlPj5AMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_AdditionalParams"
+    }, {
+      "id" : "_IlPj5QMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Database"
+    }, {
+      "id" : "_IlPj4wMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Login"
+    }, {
+      "id" : "_IlPj5wMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Port"
+    }, {
+      "id" : "_IlPj4QMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Schema"
+    }, {
+      "id" : "_IlPj4gMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Server"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_bmfs8LiBEe2fvrK1lthLOg",
+    "parameterList" : [ {
+      "id" : "_6_PQ9AL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_AdditionalParams"
+    }, {
+      "id" : "_6_PQ9QL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Database"
+    }, {
+      "id" : "_6_PQ8wL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Login"
+    }, {
+      "id" : "_6_PQ9gL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Password"
+    }, {
+      "id" : "_6_PQ9wL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Port"
+    }, {
+      "id" : "_6_PQ8QL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Schema"
+    }, {
+      "id" : "_6_PQ8gL9Ee6qqdKvG09KWQ",
+      "name" : "C_MDM_ProcessControl_Server"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_mGeWcNVXEe2pctSpYpj7Mw",
+    "parameterList" : [ {
+      "id" : "_0EcwdAL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_AdditionalParams"
+    }, {
+      "id" : "_0EcwdQL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Database"
+    }, {
+      "id" : "_0EcwcwL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Login"
+    }, {
+      "id" : "_0EcwdgL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Password"
+    }, {
+      "id" : "_0EcwdwL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Port"
+    }, {
+      "id" : "_0EcwcQL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Schema"
+    }, {
+      "id" : "_0EcwcgL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Server"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_UiRDwLhWEe2fvrK1lthLOg",
+    "parameterList" : [ {
+      "id" : "_rWHccgL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_AdditionalParams"
+    }, {
+      "id" : "_rWHcdQL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Database"
+    }, {
+      "id" : "_rWHcdgL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Login"
+    }, {
+      "id" : "_rWHccwL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Password"
+    }, {
+      "id" : "_rWHccQL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Port"
+    }, {
+      "id" : "_rWHcdwL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Schema"
+    }, {
+      "id" : "_rWHcdAL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Server"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_AEZDoiifEe6Wca1QY60H1w",
+      "name" : "AMC_DataSourceName"
+    }, {
+      "id" : "_GftBByW8Ee6-DOSa3Omt8Q",
+      "name" : "ProcessControl_DataSourceName"
+    }, {
+      "id" : "_GftBBiW8Ee6-DOSa3Omt8Q",
+      "name" : "PStaging_DataSourceName"
+    }, {
+      "id" : "_GftBBSW8Ee6-DOSa3Omt8Q",
+      "name" : "Staging_DataSourceName"
+    }, {
+      "id" : "_GftBBCW8Ee6-DOSa3Omt8Q",
+      "name" : "BusinessApplicationName"
+    }, {
+      "id" : "_AEZDoyifEe6Wca1QY60H1w",
+      "name" : "MDMMaster_DataSourceName"
+    }, {
+      "id" : "_68PTUV4uEe6YOqT5_tD7tQ",
+      "name" : "MDMMasterConn_Name"
+    }, {
+      "id" : "_5l1hEV4uEe6YOqT5_tD7tQ",
+      "name" : "IMDMConn_Name"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_wv0FwECZEe699LJxJYFrmA",
+    "parameterList" : [ {
+      "id" : "_OBwpoVgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_AdditionalParams"
+    }, {
+      "id" : "_OBwppVgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Database"
+    }, {
+      "id" : "_OBwpo1gDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Login"
+    }, {
+      "id" : "_OBwppFgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Password"
+    }, {
+      "id" : "_OBwpolgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Port"
+    }, {
+      "id" : "_OBwpplgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Schema"
+    }, {
+      "id" : "_OBwpp1gDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Server"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_HPD1ANVlEe2pctSpYpj7Mw",
+    "parameterList" : [ {
+      "id" : "_z5YKzzylEeyKF9B1hFFEcg",
+      "name" : "Mail_From"
+    }, {
+      "id" : "_z5YK0DylEeyKF9B1hFFEcg",
+      "name" : "Mail_To"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_AJ2-U_oyEe2Cu_1EnuXiBw",
+    "parameterList" : [ {
+      "id" : "_7rSKIwxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_7rSKIQxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_7rSKKAxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_DBType"
+    }, {
+      "id" : "_7rSKJgxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Login"
+    }, {
+      "id" : "_7rSKJAxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Password"
+    }, {
+      "id" : "_7rSKIgxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_7rSKJQxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Schema"
+    }, {
+      "id" : "_7rSKJwxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Server"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "__8188GciEe64lexzV0cw9A",
+    "parameterList" : [ {
+      "id" : "__9QMqmciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Port"
+    }, {
+      "id" : "__9QMrGciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Server"
+    }, {
+      "id" : "__9QMsGciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_AdditionalParams"
+    }, {
+      "id" : "__9QMrWciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Database"
+    }, {
+      "id" : "__9QMq2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Schema"
+    }, {
+      "id" : "__9QMrmciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Login"
+    }, {
+      "id" : "__9QMr2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Password"
+    } ]
+  } ]
+}

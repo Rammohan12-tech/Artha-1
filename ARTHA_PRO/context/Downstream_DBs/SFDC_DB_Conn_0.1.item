@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_SJodwHoMEe6J3Lk8cTtQ2Q" confirmationNeeded="false" hide="true" name="Default">
+    <contextParameter xmi:id="_SJodwXoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Port" prompt="SFDC_DB_Conn_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_SJodwnoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Server" prompt="SFDC_DB_Conn_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-ats-asia-customercoreth-np-as1-postgres01.cnnatw2taj7y.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_SJodw3oMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Password" prompt="SFDC_DB_Conn_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:YUL8wnyU3+Uffd7H7Mcg22F8+5ilENW16txVHJ0eN1gmKNixmweU2t9DC+ANhzUu"/>
+    <contextParameter xmi:id="_SJodxHoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Login" prompt="SFDC_DB_Conn_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ktaxa_mdmcustomercore_user"/>
+    <contextParameter xmi:id="_SJodxXoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Database" prompt="SFDC_DB_Conn_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="customercoreth"/>
+    <contextParameter xmi:id="_SJodxnoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Schema" prompt="SFDC_DB_Conn_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="l_th_custcore"/>
+    <contextParameter xmi:id="_SJodx3oMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_AdditionalParams" prompt="SFDC_DB_Conn_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_SJodyXoMEe6J3Lk8cTtQ2Q" confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter xmi:id="_SJodynoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Port" prompt="SFDC_DB_Conn_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_SJody3oMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Server" prompt="SFDC_DB_Conn_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-ats-asia-customercoreth-np-as1-postgres01.cnnatw2taj7y.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_SJodzHoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Password" prompt="SFDC_DB_Conn_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:46tX/jfd9LS1BFow1VzWJHaiE6IJ6VMNxXImwFdjpvOOe319n6y/zFaQQnXR9QyH"/>
+    <contextParameter xmi:id="_SJodzXoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Login" prompt="SFDC_DB_Conn_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ktaxa_mdmcustomercore_user"/>
+    <contextParameter xmi:id="_SJodznoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Database" prompt="SFDC_DB_Conn_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="customercoreth"/>
+    <contextParameter xmi:id="_SJodz3oMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Schema" prompt="SFDC_DB_Conn_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="l_th_custcore"/>
+    <contextParameter xmi:id="_SJod0HoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_AdditionalParams" prompt="SFDC_DB_Conn_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_SJod0noMEe6J3Lk8cTtQ2Q" confirmationNeeded="false" hide="true" name="PROD">
+    <contextParameter xmi:id="_SJod03oMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Port" prompt="SFDC_DB_Conn_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_SJod1HoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Server" prompt="SFDC_DB_Conn_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-ats-asia-customercoreth-np-as1-postgres01.cnnatw2taj7y.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_SJod1XoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Password" prompt="SFDC_DB_Conn_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ShKqiVQMt/W1PEGT8bYV5HP9pJPCRr6qOoaJKWhfJwoNCb7mgD2sHD/Pd1MRC2ww"/>
+    <contextParameter xmi:id="_SJod1noMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Login" prompt="SFDC_DB_Conn_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ktaxa_mdmcustomercore_user"/>
+    <contextParameter xmi:id="_SJod13oMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Database" prompt="SFDC_DB_Conn_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="customercoreth"/>
+    <contextParameter xmi:id="_SJod2HoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_Schema" prompt="SFDC_DB_Conn_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="l_th_custcore"/>
+    <contextParameter xmi:id="_SJod2XoMEe6J3Lk8cTtQ2Q" comment="" name="SFDC_DB_Conn_AdditionalParams" prompt="SFDC_DB_Conn_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

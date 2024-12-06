@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_OBy4ALhkEe2fvrK1lthLOg" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_OBy4AbhkEe2fvrK1lthLOg" comment="" name="Staging_Port" prompt="Staging_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_OBy4ArhkEe2fvrK1lthLOg" comment="" name="Staging_AdditionalParams" prompt="Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_OBy4A7hkEe2fvrK1lthLOg" comment="" name="Staging_Password" prompt="Staging_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:GNpEaE9rF0M/vszcgzF4DrjH0HnPPXmZcncu1lHLhQ0mpbJevP6W7YJCwQU="/>
+    <contextParameter xmi:id="_OBy4BLhkEe2fvrK1lthLOg" comment="" name="Staging_Server" prompt="Staging_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-stagingzone-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_OBy4BbhkEe2fvrK1lthLOg" comment="" name="Staging_Database" prompt="Staging_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_OBy4BrhkEe2fvrK1lthLOg" comment="" name="Staging_Login" prompt="Staging_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="admin_cmdm_stagingzone"/>
+    <contextParameter xmi:id="_OBy4B7hkEe2fvrK1lthLOg" comment="" name="Staging_Schema" prompt="Staging_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Staging"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_rWHccAL8Ee6qqdKvG09KWQ" confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter xmi:id="_rWHccQL8Ee6qqdKvG09KWQ" comment="" name="Staging_Port" prompt="Staging_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_rWHccgL8Ee6qqdKvG09KWQ" comment="" name="Staging_AdditionalParams" prompt="Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_rWHccwL8Ee6qqdKvG09KWQ" comment="" name="Staging_Password" prompt="Staging_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:5tfGyPQijVkjhjZnWcfiUofaejNFtQff98kjVO6IZZRwl1D49h8zlCfN4nE="/>
+    <contextParameter xmi:id="_rWHcdAL8Ee6qqdKvG09KWQ" comment="" name="Staging_Server" prompt="Staging_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-stagingzone-as1-pr-postgres01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com&#xD;&#xA;"/>
+    <contextParameter xmi:id="_rWHcdQL8Ee6qqdKvG09KWQ" comment="" name="Staging_Database" prompt="Staging_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_rWHcdgL8Ee6qqdKvG09KWQ" comment="" name="Staging_Login" prompt="Staging_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="admin_cmdm_stagingzone"/>
+    <contextParameter xmi:id="_rWHcdwL8Ee6qqdKvG09KWQ" comment="" name="Staging_Schema" prompt="Staging_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Staging"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OBy4GLhkEe2fvrK1lthLOg" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_OBy4GbhkEe2fvrK1lthLOg" comment="" name="Staging_Port" prompt="Staging_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_OBy4GrhkEe2fvrK1lthLOg" comment="" name="Staging_AdditionalParams" prompt="Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_OBy4G7hkEe2fvrK1lthLOg" comment="" name="Staging_Password" prompt="Staging_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:NhKwEpnO2jYjqpiiWpHE6plCeqa0qYLb7wLgnWE0G0A4/M1e5CGTjB/0nGOmvvncH9A17A=="/>
+    <contextParameter xmi:id="_OBy4HLhkEe2fvrK1lthLOg" comment="" name="Staging_Server" prompt="Staging_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-stagingzone-as1-pr-postgres01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com&#xD;&#xA;"/>
+    <contextParameter xmi:id="_OBy4HbhkEe2fvrK1lthLOg" comment="" name="Staging_Database" prompt="Staging_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_OBy4HrhkEe2fvrK1lthLOg" comment="" name="Staging_Login" prompt="Staging_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="custdbetlusermdm"/>
+    <contextParameter xmi:id="_OBy4H7hkEe2fvrK1lthLOg" comment="" name="Staging_Schema" prompt="Staging_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Staging"/>
+  </talendfile:ContextType>
+</xmi:XMI>

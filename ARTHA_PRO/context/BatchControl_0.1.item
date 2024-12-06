@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_S6HL8F-TEe6QlclCLIInYQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_S8298F-TEe6QlclCLIInYQ" comment="" name="BatchControl_Table" prompt="BatchControl_Table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;batchcontrol&quot;"/>
+    <contextParameter xmi:id="_WEQzwF-TEe6QlclCLIInYQ" comment="" name="BigBatchSize" prompt="BigBatchSize?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="500000"/>
+    <contextParameter xmi:id="_aJwCcF-TEe6QlclCLIInYQ" comment="" name="startId" prompt="startId?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_aJwCcV-TEe6QlclCLIInYQ" comment="" name="endId" prompt="endId?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_aJwCcl-TEe6QlclCLIInYQ" comment="" name="Batch_Size" prompt="Batch_Size?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="50000"/>
+    <contextParameter xmi:id="_aJwCc1-TEe6QlclCLIInYQ" comment="" name="Iteration" prompt="Iteration?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_djiBsF-TEe6QlclCLIInYQ" comment="" name="NumberOfPipeLines" prompt="NumberOfPipeLines?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_PrCfMGXmEe64PO-97ipWbg" comment="" name="currentMasterJobiteration" prompt="currentMasterJobiteration?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_R5q58GXmEe64PO-97ipWbg" comment="" name="maxMasterJobIteration" prompt="maxMasterJobIteration?" promptNeeded="false" type="id_Integer" value="50"/>
+    <contextParameter xmi:id="_IsdL8P3SEe6pkOF1eKjHbw" comment="" name="Source_Migration_Stage" prompt="Source_Migration_Stage?" promptNeeded="false" type="id_String" value="&quot;MIGRATE_SOURCE&quot;"/>
+    <contextParameter xmi:id="_UAgTEP3SEe6pkOF1eKjHbw" comment="" name="Source_Migration_Job" prompt="Source_Migration_Job?" promptNeeded="false" type="id_String" value="J210_Migrate_SourceParty_Rec"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_S6HL8V-TEe6QlclCLIInYQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_S83lAF-TEe6QlclCLIInYQ" comment="" name="BatchControl_Table" prompt="BatchControl_Table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;batchcontrol&quot;"/>
+    <contextParameter xmi:id="_WEQzwV-TEe6QlclCLIInYQ" comment="" name="BigBatchSize" prompt="BigBatchSize?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="500000"/>
+    <contextParameter xmi:id="_aJwCdF-TEe6QlclCLIInYQ" comment="" name="startId" prompt="startId?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_aJwCdV-TEe6QlclCLIInYQ" comment="" name="endId" prompt="endId?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_aJwCdl-TEe6QlclCLIInYQ" comment="" name="Batch_Size" prompt="Batch_Size?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="50000"/>
+    <contextParameter xmi:id="_aJwCd1-TEe6QlclCLIInYQ" comment="" name="Iteration" prompt="Iteration?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_djiBsV-TEe6QlclCLIInYQ" comment="" name="NumberOfPipeLines" prompt="NumberOfPipeLines?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_PrCfMWXmEe64PO-97ipWbg" comment="" name="currentMasterJobiteration" prompt="currentMasterJobiteration?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_R5q58WXmEe64PO-97ipWbg" comment="" name="maxMasterJobIteration" prompt="maxMasterJobIteration?" promptNeeded="false" type="id_Integer" value="50"/>
+    <contextParameter xmi:id="_IsdL8f3SEe6pkOF1eKjHbw" comment="" name="Source_Migration_Stage" prompt="Source_Migration_Stage?" promptNeeded="false" type="id_String" value="&quot;MIGRATE_SOURCE&quot;"/>
+    <contextParameter xmi:id="_UAgTEf3SEe6pkOF1eKjHbw" comment="" name="Source_Migration_Job" prompt="Source_Migration_Job?" promptNeeded="false" type="id_String" value="J210_Migrate_SourceParty_Rec"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_S6HL8l-TEe6QlclCLIInYQ" confirmationNeeded="false" name="NON_PROD">
+    <contextParameter xmi:id="_S83lAV-TEe6QlclCLIInYQ" comment="" name="BatchControl_Table" prompt="BatchControl_Table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;batchcontrol&quot;"/>
+    <contextParameter xmi:id="_WEQzwl-TEe6QlclCLIInYQ" comment="" name="BigBatchSize" prompt="BigBatchSize?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="500000"/>
+    <contextParameter xmi:id="_aJwCeF-TEe6QlclCLIInYQ" comment="" name="startId" prompt="startId?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_aJwCeV-TEe6QlclCLIInYQ" comment="" name="endId" prompt="endId?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_aJwCel-TEe6QlclCLIInYQ" comment="" name="Batch_Size" prompt="Batch_Size?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="50000"/>
+    <contextParameter xmi:id="_aJwCe1-TEe6QlclCLIInYQ" comment="" name="Iteration" prompt="Iteration?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_djiBsl-TEe6QlclCLIInYQ" comment="" name="NumberOfPipeLines" prompt="NumberOfPipeLines?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_PrCfMmXmEe64PO-97ipWbg" comment="" name="currentMasterJobiteration" prompt="currentMasterJobiteration?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_R5q58mXmEe64PO-97ipWbg" comment="" name="maxMasterJobIteration" prompt="maxMasterJobIteration?" promptNeeded="false" type="id_Integer" value="50"/>
+    <contextParameter xmi:id="_IsdL8v3SEe6pkOF1eKjHbw" comment="" name="Source_Migration_Stage" prompt="Source_Migration_Stage?" promptNeeded="false" type="id_String" value="&quot;MIGRATE_SOURCE&quot;"/>
+    <contextParameter xmi:id="_UAgTEv3SEe6pkOF1eKjHbw" comment="" name="Source_Migration_Job" prompt="Source_Migration_Job?" promptNeeded="false" type="id_String" value="J210_Migrate_SourceParty_Rec"/>
+  </talendfile:ContextType>
+</xmi:XMI>

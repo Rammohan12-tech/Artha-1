@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="NON_PROD" jobType="Standard">
+  <context confirmationNeeded="false" hide="true" name="Default">
+    <contextParameter comment="" name="Batch_ID" prompt="Batch_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="6" internalId="_Ctz8CO1OEe2Hw-GnOVdLiQ"/>
+    <contextParameter comment="" name="PStagingConn_Name" prompt="PStagingConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_GcSkoELcEe6i0PRO70AieQ"/>
+    <contextParameter comment="" name="DataSet_To_Master" prompt="DataSet_To_Master?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Simple Updates&quot;" internalId="_EN4RQKKgEe6GY9_Npm9muA"/>
+    <contextParameter comment="" name="LastJob_END" prompt="LastJob_END?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="J100_Party_Match_n_Merge_Master_END" internalId="_UzsJhsKfEe2HltkTjkEXnQ"/>
+    <contextParameter comment="" name="CustCoreConn_Name" prompt="CustCoreConn_Name?" promptNeeded="false" repositoryContextId="_e7yE4GmVEe6A2OaO8cO4sQ" type="id_String" value="" internalId="_qkjCUGmWEe6A2OaO8cO4sQ"/>
+    <contextParameter comment="" name="BusinessApplicationName" prompt="BusinessApplicationName?" promptNeeded="false" repositoryContextId="_e7yE4GmVEe6A2OaO8cO4sQ" type="id_String" value="" internalId="_A-aU8CiBEe-YWpIYFz6pQA"/>
+    <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="_HYsaELiFEe2fvrK1lthLOg" type="id_Boolean" value="" internalId="_clifsP5VEe6DfuT7ovL5qA"/>
+    <contextParameter comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" repositoryContextId="_HYsaELiFEe2fvrK1lthLOg" type="id_String" value="" internalId="_D2GSkP7mEe6lVZM5i4QMhg"/>
+    <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" repositoryContextId="_HYsaELiFEe2fvrK1lthLOg" type="id_String" value="" internalId="_vVRdYP7mEe6lVZM5i4QMhg"/>
+    <contextParameter comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" repositoryContextId="_HYsaELiFEe2fvrK1lthLOg" type="id_String" value="" internalId="_DVgJ4P-JEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" repositoryContextId="_HYsaELiFEe2fvrK1lthLOg" type="id_String" value="" internalId="_DVgJ4f-JEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" repositoryContextId="_HYsaELiFEe2fvrK1lthLOg" type="id_String" value="" internalId="_DVgJ4v-JEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="BatchControl_Table" prompt="BatchControl_Table?" promptNeeded="false" repositoryContextId="_S6F90F-TEe6QlclCLIInYQ" type="id_String" value="&quot;batchcontrol&quot;" internalId="_2gawkDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_AdditionalParams" prompt="C_MDM_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="" internalId="_2gawkTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Database" prompt="C_MDM_AMC_Database?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="postgres" internalId="_2gawkjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Login" prompt="C_MDM_AMC_Login?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="admin_cmdm_core" internalId="_2gawkzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Password" prompt="C_MDM_AMC_Password?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_Password" value="enc:system.encryption.key.v1:D8LaAhSPIW+0QKA17Qudp8LO59Sqzb1zgKENj3pdvLkyboL7NCObOB2FNAY=" internalId="_2gawlDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Port" prompt="C_MDM_AMC_Port?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="5432" internalId="_2gawlTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Schema" prompt="C_MDM_AMC_Schema?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="amc" internalId="_2gawljqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Server" prompt="C_MDM_AMC_Server?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_2gawlzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_AdditionalParams" prompt="MDMMaster_AdditionalParams?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="" internalId="_2gawmDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Database" prompt="MDMMaster_Database?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="postgres" internalId="_2gawmTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Login" prompt="MDMMaster_Login?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="admin_cmdm_core" internalId="_2gawmjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Password" prompt="MDMMaster_Password?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_Password" value="enc:system.encryption.key.v1:cshBePUiD0TGBiy5HjWGf87Hjn0SJUpx5PCSSPv/Gtai/Z1UGKxIBYk1CUA=" internalId="_2gawmzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Port" prompt="MDMMaster_Port?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="5432" internalId="_2gawnDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Schema" prompt="MDMMaster_Schema?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="MDMMaster" internalId="_2gawnTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Server" prompt="MDMMaster_Server?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_2gawnjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_AdditionalParams" prompt="C_MDM_ProcessControl_AdditionalParams?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="" internalId="_2gawnzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Database" prompt="C_MDM_ProcessControl_Database?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="postgres" internalId="_2gawoDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Login" prompt="C_MDM_ProcessControl_Login?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="admin_cmdm_core" internalId="_2gawoTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Password" prompt="C_MDM_ProcessControl_Password?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_Password" value="enc:system.encryption.key.v1:vZbZWcxK8TodBdIdGauzuyClSzuEn1kyLcXt3IYoyxin4L7YDSiKNpAUExk=" internalId="_2gawojqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Port" prompt="C_MDM_ProcessControl_Port?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="5432" internalId="_2gawozqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Schema" prompt="C_MDM_ProcessControl_Schema?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="ProcessControl" internalId="_2gawpDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Server" prompt="C_MDM_ProcessControl_Server?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_2gawpTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_AdditionalParams" prompt="PStaging_AdditionalParams?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="" internalId="_2gawpjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Database" prompt="PStaging_Database?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="postgres" internalId="_2gawpzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Login" prompt="PStaging_Login?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="admin_cmdm_core" internalId="_2gawqDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Password" prompt="PStaging_Password?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_Password" value="enc:system.encryption.key.v1:BiTNk47qMFlWBP3WE9a+h5qj+6BdKtWmMBOdcpspKvcmLV/6QsDnGdhg1V0=" internalId="_2gawqTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Port" prompt="PStaging_Port?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="5432" internalId="_2gawqjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Schema" prompt="PStaging_Schema?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="PStaging" internalId="_2gawqzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Server" prompt="PStaging_Server?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_2gawrDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="ProcessControl_DataSourceName" prompt="ProcessControl_DataSourceName?" promptNeeded="false" repositoryContextId="_Gd1YwCW8Ee6-DOSa3Omt8Q" type="id_String" value="C-MDM ProcessControl NonProd" internalId="_2gawrTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_AdditionalParams" prompt="KTAXA_CustCore_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="" internalId="_2gawrjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Database" prompt="KTAXA_CustCore_DB_Database?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="customercoreth" internalId="_2gawrzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Login" prompt="KTAXA_CustCore_DB_Login?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="ktaxa_mdmcustomercore_user" internalId="_2gawsDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Password" prompt="KTAXA_CustCore_DB_Password?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_Password" value="enc:system.encryption.key.v1:WTJao0BVYcehFIeEHxHEzTNjhVEnwa+PyTEHwPaGdNUI2rr9aBp9sBTWjzDvKVgj" internalId="_2gawsTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Port" prompt="KTAXA_CustCore_DB_Port?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="5432" internalId="_2gawsjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Schema" prompt="KTAXA_CustCore_DB_Schema?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="l_th_custcore" internalId="_2gawszqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Server" prompt="KTAXA_CustCore_DB_Server?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="w-ats-asia-customercoreth-np-as1-postgres01.cnnatw2taj7y.ap-southeast-1.rds.amazonaws.com" internalId="_2gawtDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Accept" prompt="Accept?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_2gawtTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Api_URL" prompt="Api_URL?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://api-private-gateway-api.axa-kt-th-preprod-mpl-int.scarlet.ap-southeast-1.aws.openpaas.axa-cloud.com/v1.2/email/send" internalId="_2gawtjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_Environment" prompt="C_MDM_Environment?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="NON_PROD" internalId="_2gawtzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="client_id" prompt="client_id?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="apiconso-mdm-svc" internalId="_2gawuDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="client_secret" prompt="client_secret?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="e7936411-3b7c-48f4-bda3-ae87ebd06fc2" internalId="_2gawuTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="consumerName" prompt="consumerName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="CustomerDB" internalId="_2gawujqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Content_Type" prompt="Content_Type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_2gawuzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="grant_type" prompt="grant_type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_credentials" internalId="_2gawvDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Job_In_Question" prompt="Job_In_Question?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_2gawvTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KeyStore_Password" prompt="KeyStore_Password?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_Password" value="enc:system.encryption.key.v1:xg8KTDMiXfkCY44XKCADoiiHwufaYT2qGfqH5YwGcoP9m1Pv" internalId="_2gawvjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_API_Token" prompt="Mail_API_Token?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_2gawvzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_BCC" prompt="Mail_BCC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="saimadhu.vallappu@thinkartha.com,karthik.soundararajan@thinkartha.com" internalId="_2gawwDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_CC" prompt="Mail_CC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="ram.mohan@krungthai-axa.co.th" internalId="_2gawwTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_From" prompt="Mail_From?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_2gawwjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Name" prompt="Mail_Keystorefile_Name?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="key_store_NpProd.jks" internalId="_2gawwzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Path" prompt="Mail_Keystorefile_Path?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="C:\Users\Rammoh\OneDrive - AXA\Documents" internalId="_2gawxDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_Sender" prompt="Mail_Sender?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_2gawxTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_To" prompt="Mail_To?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="sukjit.chongkijthavorn@krungthai-axa.co.th" internalId="_2gawxjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="msgId" prompt="msgId?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="ktaxa-mdm-64101ea9e03dc06821090f53" internalId="_2gawxzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="outhToken" prompt="outhToken?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_id=apiconso-mdm-svc&amp;client_secret=e7936411-3b7c-48f4-bda3-ae87ebd06fc2&amp;grant_type=client_credentials" internalId="_2gawyDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="SenderName" prompt="SenderName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_2gawyTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Token_Api" prompt="Token_Api?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://keycloak.uat.krungthai-axa.co.th/auth/realms/apiconso/protocol/openid-connect/token" internalId="_2gawyjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_AdditionalParams" prompt="MDMLite_ConfigDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="" internalId="_2gbXoDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Database" prompt="MDMLite_ConfigDB_Database?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="MDM" internalId="_2gbXoTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="MariaDB" internalId="_2gbXojqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Login" prompt="MDMLite_ConfigDB_Login?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="admin_cmdm_app" internalId="_2gbXozqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Password" prompt="MDMLite_ConfigDB_Password?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_Password" value="enc:system.encryption.key.v1:YMNKWVVFvX6Ww3Lq8QhzLeof4HDfNQXA9BRfTqfPz9ctl81GZTnyJJXP0wA=" internalId="_2gbXpDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Port" prompt="MDMLite_ConfigDB_Port?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="3306" internalId="_2gbXpTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Schema" prompt="MDMLite_ConfigDB_Schema?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="MDM" internalId="_2gbXpjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Server" prompt="MDMLite_ConfigDB_Server?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="w-kt-th-cmdm-application-as1-np-mariadb01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_2gbXpzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Pipeline" prompt="Pipeline?" promptNeeded="false" repositoryContextId="_InS4kLUbEemP5sungzRBeQ" type="id_Integer" value="0" internalId="_2gbXqDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KeyStorePath" prompt="KeyStorePath?" promptNeeded="false" repositoryContextId="_514SIDd0Ee6DLK5036E4ng" type="id_String" value="C:/KeyStore" internalId="_2gbXqTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MatchnMergeMaster_JobName" prompt="MatchnMergeMaster_JobName?" promptNeeded="false" repositoryContextId="_514SIDd0Ee6DLK5036E4ng" type="id_String" value="J100_Party_Match_n_Merge_Master" internalId="_2gbXqjqeEe-Sq532ZB9ouw"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter comment="" name="Batch_ID" prompt="Batch_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="5" internalId="_Ctz8CO1OEe2Hw-GnOVdLiQ"/>
+    <contextParameter comment="" name="PStagingConn_Name" prompt="PStagingConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_GcSkoELcEe6i0PRO70AieQ"/>
+    <contextParameter comment="" name="DataSet_To_Master" prompt="DataSet_To_Master?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Simple Updates&quot;" internalId="_EN4RQaKgEe6GY9_Npm9muA"/>
+    <contextParameter comment="" name="LastJob_END" prompt="LastJob_END?" promptNeeded="false" repositoryContextId="_HoGvELiFEe2fvrK1lthLOg" type="id_String" value="J100_Party_Match_n_Merge_Master_END" internalId="_UzsJhsKfEe2HltkTjkEXnQ"/>
+    <contextParameter comment="" name="CustCoreConn_Name" prompt="CustCoreConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CustomerCore_NonProd" internalId="_qkjCUWmWEe6A2OaO8cO4sQ"/>
+    <contextParameter comment="" name="BusinessApplicationName" prompt="BusinessApplicationName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM" internalId="_A-aU8iiBEe-YWpIYFz6pQA"/>
+    <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_clifsP5VEe6DfuT7ovL5qA"/>
+    <contextParameter comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_D2GSkP7mEe6lVZM5i4QMhg"/>
+    <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vVRdYP7mEe6lVZM5i4QMhg"/>
+    <contextParameter comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ4P-JEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ4f-JEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ4v-JEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="BatchControl_Table" prompt="BatchControl_Table?" promptNeeded="false" repositoryContextId="_S6F90F-TEe6QlclCLIInYQ" type="id_String" value="&quot;batchcontrol&quot;" internalId="_2gbXqzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_AdditionalParams" prompt="C_MDM_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="" internalId="_2gbXrDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Database" prompt="C_MDM_AMC_Database?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="postgres" internalId="_2gbXrTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Login" prompt="C_MDM_AMC_Login?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="admin_cmdm_core" internalId="_2gbXrjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Password" prompt="C_MDM_AMC_Password?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_Password" value="enc:system.encryption.key.v1:rQ41CmLkSCDckwmclXAjc0+EiWPr1BqZPCfreXzCLCWNrpPEExZuG8L0Mo0=" internalId="_2gbXrzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Port" prompt="C_MDM_AMC_Port?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="5432" internalId="_2gbXsDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Schema" prompt="C_MDM_AMC_Schema?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="amc" internalId="_2gbXsTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Server" prompt="C_MDM_AMC_Server?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_2gbXsjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_AdditionalParams" prompt="MDMMaster_AdditionalParams?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="" internalId="_2gbXszqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Database" prompt="MDMMaster_Database?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="postgres" internalId="_2gbXtDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Login" prompt="MDMMaster_Login?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="admin_cmdm_core" internalId="_2gbXtTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Password" prompt="MDMMaster_Password?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_Password" value="enc:system.encryption.key.v1:z0tDkfvRRrjKoJCOehh033AeOIKXutzJfzwGWdYtLoPhwokUJjLrfVcENro=" internalId="_2gbXtjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Port" prompt="MDMMaster_Port?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="5432" internalId="_2gbXtzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Schema" prompt="MDMMaster_Schema?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="MDMMaster" internalId="_2gbXuDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Server" prompt="MDMMaster_Server?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_2gbXuTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_AdditionalParams" prompt="C_MDM_ProcessControl_AdditionalParams?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="" internalId="_2gbXujqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Database" prompt="C_MDM_ProcessControl_Database?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="postgres" internalId="_2gbXuzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Login" prompt="C_MDM_ProcessControl_Login?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="admin_cmdm_core" internalId="_2gbXvDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Password" prompt="C_MDM_ProcessControl_Password?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_Password" value="enc:system.encryption.key.v1:Mc5W7IYTs6lBbz2Nt9dKKFtOUXVKOm9uHDVo5oz7FhrJvluC/dvYFltJRJA=" internalId="_2gbXvTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Port" prompt="C_MDM_ProcessControl_Port?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="5432" internalId="_2gbXvjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Schema" prompt="C_MDM_ProcessControl_Schema?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="ProcessControl" internalId="_2gbXvzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Server" prompt="C_MDM_ProcessControl_Server?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_2gbXwDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_AdditionalParams" prompt="PStaging_AdditionalParams?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="" internalId="_2gbXwTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Database" prompt="PStaging_Database?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="postgres" internalId="_2gbXwjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Login" prompt="PStaging_Login?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="admin_cmdm_core" internalId="_2gbXwzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Password" prompt="PStaging_Password?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_Password" value="enc:system.encryption.key.v1:QITB8wgvs8oU7FXm8HpNqtoRI79pPjoC6rAHsGwY2TkBZ1wlgVoskzyGlhk=" internalId="_2gbXxDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Port" prompt="PStaging_Port?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="5432" internalId="_2gbXxTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Schema" prompt="PStaging_Schema?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="PStaging" internalId="_2gbXxjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Server" prompt="PStaging_Server?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_2gbXxzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="ProcessControl_DataSourceName" prompt="ProcessControl_DataSourceName?" promptNeeded="false" repositoryContextId="_Gd1YwCW8Ee6-DOSa3Omt8Q" type="id_String" value="C-MDM ProcessControl NonProd" internalId="_2gbXyDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_AdditionalParams" prompt="KTAXA_CustCore_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="" internalId="_2gbXyTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Database" prompt="KTAXA_CustCore_DB_Database?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="customercoreth" internalId="_2gbXyjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Login" prompt="KTAXA_CustCore_DB_Login?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="ktaxa_mdmcustomercore_user" internalId="_2gbXyzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Password" prompt="KTAXA_CustCore_DB_Password?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_Password" value="enc:system.encryption.key.v1:9LAAaz4TeSLgsNjGzioGUIjUQky3IXjriW2cDAMNiMtFSrH50G4aMBroLcXD8qZC" internalId="_2gbXzDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Port" prompt="KTAXA_CustCore_DB_Port?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="5432" internalId="_2gbXzTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Schema" prompt="KTAXA_CustCore_DB_Schema?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="l_th_custcore" internalId="_2gbXzjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Server" prompt="KTAXA_CustCore_DB_Server?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="w-ats-asia-customercoreth-np-as1-postgres01.cnnatw2taj7y.ap-southeast-1.rds.amazonaws.com" internalId="_2gbXzzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Accept" prompt="Accept?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_2gbX0DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Api_URL" prompt="Api_URL?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://api-private-gateway-api.axa-kt-th-preprod-mpl-int.scarlet.ap-southeast-1.aws.openpaas.axa-cloud.com/v1.2/email/send" internalId="_2gbX0TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_Environment" prompt="C_MDM_Environment?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="NON_PROD" internalId="_2gbX0jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="client_id" prompt="client_id?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="apiconso-mdm-svc" internalId="_2gbX0zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="client_secret" prompt="client_secret?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="e7936411-3b7c-48f4-bda3-ae87ebd06fc2" internalId="_2gbX1DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="consumerName" prompt="consumerName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="CustomerDB" internalId="_2gbX1TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Content_Type" prompt="Content_Type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_2gbX1jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="grant_type" prompt="grant_type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_credentials" internalId="_2gbX1zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Job_In_Question" prompt="Job_In_Question?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_2gbX2DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KeyStore_Password" prompt="KeyStore_Password?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_Password" value="enc:system.encryption.key.v1:DBwFaB6Q7umMDkLwgj0JREolxmxK/iwKQ/p0n8DdfsHgWmG2" internalId="_2gbX2TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_API_Token" prompt="Mail_API_Token?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_2gbX2jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_BCC" prompt="Mail_BCC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="saimadhu.vallappu@thinkartha.com,karthik.soundararajan@thinkartha.com" internalId="_2gbX2zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_CC" prompt="Mail_CC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="balram.vedavyas@thinkartha.com,ram.mohan@krungthai-axa.co.th,thanyachanok.sajjapornvarothai@krungthai-axa.co.th" internalId="_2gbX3DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_From" prompt="Mail_From?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_2gbX3TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Name" prompt="Mail_Keystorefile_Name?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="key_store_NpProd.jks" internalId="_2gbX3jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Path" prompt="Mail_Keystorefile_Path?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="C:\Users\Rammoh\OneDrive - AXA\Documents" internalId="_2gbX3zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_Sender" prompt="Mail_Sender?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_2gbX4DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_To" prompt="Mail_To?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="sukjit.chongkijthavorn@krungthai-axa.co.th" internalId="_2gbX4TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="msgId" prompt="msgId?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="ktaxa-mdm-64101ea9e03dc06821090f53" internalId="_2gbX4jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="outhToken" prompt="outhToken?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_id=apiconso-mdm-svc&amp;client_secret=e7936411-3b7c-48f4-bda3-ae87ebd06fc2&amp;grant_type=client_credentials" internalId="_2gbX4zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="SenderName" prompt="SenderName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_2gbX5DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Token_Api" prompt="Token_Api?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://keycloak.uat.krungthai-axa.co.th/auth/realms/apiconso/protocol/openid-connect/token" internalId="_2gbX5TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_AdditionalParams" prompt="MDMLite_ConfigDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="" internalId="_2gbX5jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Database" prompt="MDMLite_ConfigDB_Database?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="MDM" internalId="_2gbX5zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="MariaDB" internalId="_2gbX6DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Login" prompt="MDMLite_ConfigDB_Login?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="admin_cmdm_app" internalId="_2gbX6TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Password" prompt="MDMLite_ConfigDB_Password?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_Password" value="enc:system.encryption.key.v1:rCwk4OQCPTvPn0xKo5/uc6XBf+173isyrQpf8v51ukSoFQ9fnV0JEK9AD20=" internalId="_2gbX6jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Port" prompt="MDMLite_ConfigDB_Port?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="3306" internalId="_2gbX6zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Schema" prompt="MDMLite_ConfigDB_Schema?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="MDM" internalId="_2gbX7DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Server" prompt="MDMLite_ConfigDB_Server?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="w-kt-th-cmdm-application-as1-np-mariadb01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_2gbX7TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Pipeline" prompt="Pipeline?" promptNeeded="false" repositoryContextId="_InS4kLUbEemP5sungzRBeQ" type="id_Integer" value="0" internalId="_2gbX7jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KeyStorePath" prompt="KeyStorePath?" promptNeeded="false" repositoryContextId="_514SIDd0Ee6DLK5036E4ng" type="id_String" value="C:/KeyStore" internalId="_2gbX7zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MatchnMergeMaster_JobName" prompt="MatchnMergeMaster_JobName?" promptNeeded="false" repositoryContextId="_514SIDd0Ee6DLK5036E4ng" type="id_String" value="J100_Party_Match_n_Merge_Master" internalId="_2gbX8DqeEe-Sq532ZB9ouw"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter comment="" name="Batch_ID" prompt="Batch_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="4243" internalId="_Ctz8CO1OEe2Hw-GnOVdLiQ"/>
+    <contextParameter comment="" name="PStagingConn_Name" prompt="PStagingConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_GcSkoELcEe6i0PRO70AieQ"/>
+    <contextParameter comment="" name="DataSet_To_Master" prompt="DataSet_To_Master?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Simple Updates&quot;" internalId="_EN4RQqKgEe6GY9_Npm9muA"/>
+    <contextParameter comment="" name="LastJob_END" prompt="LastJob_END?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="J100_Party_Match_n_Merge_Master_END" internalId="_UzsJhsKfEe2HltkTjkEXnQ"/>
+    <contextParameter comment="" name="CustCoreConn_Name" prompt="CustCoreConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CustomerCore_Prod" internalId="_qkjCUWmWEe6A2OaO8cO4sQ"/>
+    <contextParameter comment="" name="BusinessApplicationName" prompt="BusinessApplicationName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM" internalId="_A-aU8iiBEe-YWpIYFz6pQA"/>
+    <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_clifsP5VEe6DfuT7ovL5qA"/>
+    <contextParameter comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_D2GSkP7mEe6lVZM5i4QMhg"/>
+    <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vVRdYP7mEe6lVZM5i4QMhg"/>
+    <contextParameter comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ4P-JEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ4f-JEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ4v-JEe6EXJk0tua90A"/>
+    <contextParameter comment="" name="BatchControl_Table" prompt="BatchControl_Table?" promptNeeded="false" repositoryContextId="_S6F90F-TEe6QlclCLIInYQ" type="id_String" value="&quot;batchcontrol&quot;" internalId="_2gbX8TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_AdditionalParams" prompt="C_MDM_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="" internalId="_2gbX8jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Database" prompt="C_MDM_AMC_Database?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="postgres" internalId="_2gbX8zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Login" prompt="C_MDM_AMC_Login?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="custdbetlusermdm" internalId="_2gbX9DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Password" prompt="C_MDM_AMC_Password?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_Password" value="enc:system.encryption.key.v1:CML6y49uKIlb+ir56j8sPFVLduMskWu/MWRpk0XGAEMrflpslNxSjTt3jH3FRt2mBPba9Q==" internalId="_2gbX9TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Port" prompt="C_MDM_AMC_Port?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="5432" internalId="_2gbX9jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Schema" prompt="C_MDM_AMC_Schema?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="amc" internalId="_2gbX9zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_AMC_Server" prompt="C_MDM_AMC_Server?" promptNeeded="false" repositoryContextId="_jTZxYCS1Ee6tmY1saMxpDg" type="id_String" value="w-kt-th-cmdm-core-as1-pr-postgres01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com" internalId="_2gbX-DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_AdditionalParams" prompt="MDMMaster_AdditionalParams?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="" internalId="_2gbX-TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Database" prompt="MDMMaster_Database?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="postgres" internalId="_2gbX-jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Login" prompt="MDMMaster_Login?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="custdbetlusermdm" internalId="_2gbX-zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Password" prompt="MDMMaster_Password?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_Password" value="enc:system.encryption.key.v1:++FGYawFEueN+5eOhmZka25uE7QZsIEfk8cSRbVP99TGkJE5Fd3j9CnuHRFYAt5lF9286w==" internalId="_2gbX_DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Port" prompt="MDMMaster_Port?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="5432" internalId="_2gbX_TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Schema" prompt="MDMMaster_Schema?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="MDMMaster" internalId="_2gbX_jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMMaster_Server" prompt="MDMMaster_Server?" promptNeeded="false" repositoryContextId="_H9VVENxcEe2c3pihwwSSfQ" type="id_String" value="w-kt-th-cmdm-core-as1-pr-postgres01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com" internalId="_2gbX_zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_AdditionalParams" prompt="C_MDM_ProcessControl_AdditionalParams?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="" internalId="_2gbYADqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Database" prompt="C_MDM_ProcessControl_Database?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="postgres" internalId="_2gbYATqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Login" prompt="C_MDM_ProcessControl_Login?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="custdbetlusermdm" internalId="_2gbYAjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Password" prompt="C_MDM_ProcessControl_Password?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_Password" value="enc:system.encryption.key.v1:pcx0jaG4RO/UAYegF6ikI5PwyJc5I8wKe5axVV11SMj5g/XZWbTaMS7dkdlflV1g99RA2w==" internalId="_2gbYAzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Port" prompt="C_MDM_ProcessControl_Port?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="5432" internalId="_2gbYBDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Schema" prompt="C_MDM_ProcessControl_Schema?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="ProcessControl" internalId="_2gbYBTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_ProcessControl_Server" prompt="C_MDM_ProcessControl_Server?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="w-kt-th-cmdm-core-as1-pr-postgres01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com" internalId="_2gbYBjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_AdditionalParams" prompt="PStaging_AdditionalParams?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="jdbc:postgresql://ktaxa-instance-1.ccm2xkrab0dd.ap-south-1.rds.amazonaws.com:5432/postgres" internalId="_2gbYBzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Database" prompt="PStaging_Database?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="postgres" internalId="_2gbYCDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Login" prompt="PStaging_Login?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="custdbetlusermdm" internalId="_2gbYCTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Password" prompt="PStaging_Password?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_Password" value="enc:system.encryption.key.v1:UYL8eZAhO6pqD3g1S2Hnqtg2vIPoEvvixFxF+QmoJqymYG38BCi1x7L4tuwk0awkaL7ZIA==" internalId="_2gb-sDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Port" prompt="PStaging_Port?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="5432" internalId="_2gb-sTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Schema" prompt="PStaging_Schema?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="PStaging" internalId="_2gb-sjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="PStaging_Server" prompt="PStaging_Server?" promptNeeded="false" repositoryContextId="_mGeWcNVXEe2pctSpYpj7Mw" type="id_String" value="w-kt-th-cmdm-core-as1-pr-postgres01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com" internalId="_2gb-szqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="ProcessControl_DataSourceName" prompt="ProcessControl_DataSourceName?" promptNeeded="false" repositoryContextId="_Gd1YwCW8Ee6-DOSa3Omt8Q" type="id_String" value="C-MDM ProcessControl Prod" internalId="_2gb-tDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_AdditionalParams" prompt="KTAXA_CustCore_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="" internalId="_2gb-tTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Database" prompt="KTAXA_CustCore_DB_Database?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="customercoreth" internalId="_2gb-tjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Login" prompt="KTAXA_CustCore_DB_Login?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="ktaxa_mdmcustomercore_user" internalId="_2gb-tzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Password" prompt="KTAXA_CustCore_DB_Password?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_Password" value="enc:system.encryption.key.v1:N+3Hpeaiol+s2VzYT/lhwAWM/T8HIMrtjhW56T4O0kT62ZQ+sJDqGswhQiQXAXYc" internalId="_2gb-uDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Port" prompt="KTAXA_CustCore_DB_Port?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="5432" internalId="_2gb-uTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Schema" prompt="KTAXA_CustCore_DB_Schema?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="l_th_custcore" internalId="_2gb-ujqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KTAXA_CustCore_DB_Server" prompt="KTAXA_CustCore_DB_Server?" promptNeeded="false" repositoryContextId="__8188GciEe64lexzV0cw9A" type="id_String" value="w-ats-asia-customercoreth-pr-as1-postgres01.cnnatw2taj7y.ap-southeast-1.rds.amazonaws.com" internalId="_2gb-uzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Accept" prompt="Accept?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_2gb-vDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Api_URL" prompt="Api_URL?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://gateway-api.axa-kt-th-prod-mpl-int.scarlet.ap-southeast-1.aws.openpaas.axa-cloud.com/v1.2/email/send" internalId="_2gb-vTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="C_MDM_Environment" prompt="C_MDM_Environment?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="PROD" internalId="_2gb-vjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="client_id" prompt="client_id?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="apiconso-mdm-svc" internalId="_2gb-vzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="client_secret" prompt="client_secret?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="bae4396e-939d-4e3d-8259-5f1192202ae8" internalId="_2gb-wDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="consumerName" prompt="consumerName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="CustomerDB" internalId="_2gb-wTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Content_Type" prompt="Content_Type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="&quot;application/json&quot;" internalId="_2gb-wjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="grant_type" prompt="grant_type?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_credentials" internalId="_2gb-wzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Job_In_Question" prompt="Job_In_Question?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_2gb-xDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KeyStore_Password" prompt="KeyStore_Password?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_Password" value="enc:system.encryption.key.v1:U1hS2oamdKPQet3BtdhOgDSqXJgpa2SKmle74eRxFIC9Fun8" internalId="_2gb-xTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_API_Token" prompt="Mail_API_Token?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_2gb-xjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_BCC" prompt="Mail_BCC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="saimadhu.vallappu@thinkartha.com,karthik.soundararajan@thinkartha.com" internalId="_2gb-xzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_CC" prompt="Mail_CC?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="balram.vedavyas@thinkartha.com,ram.mohan@krungthai-axa.co.th,thanyachanok.sajjapornvarothai@krungthai-axa.co.th" internalId="_2gb-yDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_From" prompt="Mail_From?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_2gb-yTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Name" prompt="Mail_Keystorefile_Name?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="key_store.JKS" internalId="_2gb-yjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_Keystorefile_Path" prompt="Mail_Keystorefile_Path?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="/opt/talend" internalId="_2gb-yzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_Sender" prompt="Mail_Sender?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="MDMAdmin@krungthai-axa.co.th" internalId="_2gb-zDqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Mail_To" prompt="Mail_To?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="sukjit.chongkijthavorn@krungthai-axa.co.th" internalId="_2gb-zTqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="msgId" prompt="msgId?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="ktaxa-mdm-64101ea9e03dc06821090f53" internalId="_2gb-zjqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="outhToken" prompt="outhToken?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="client_id=apiconso-mdm-svc&amp;client_secret=bae4396e-939d-4e3d-8259-5f1192202ae8&amp;grant_type=client_credentials" internalId="_2gb-zzqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="SenderName" prompt="SenderName?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="" internalId="_2gb-0DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Token_Api" prompt="Token_Api?" promptNeeded="false" repositoryContextId="_HPD1ANVlEe2pctSpYpj7Mw" type="id_String" value="https://keycloak.krungthai-axa.co.th/auth/realms/apiconso/protocol/openid-connect/token" internalId="_2gb-0TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_AdditionalParams" prompt="MDMLite_ConfigDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="" internalId="_2gb-0jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Database" prompt="MDMLite_ConfigDB_Database?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="MDM" internalId="_2gb-0zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="MariaDB" internalId="_2gb-1DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Login" prompt="MDMLite_ConfigDB_Login?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="custdbetlusermdm" internalId="_2gb-1TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Password" prompt="MDMLite_ConfigDB_Password?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_Password" value="enc:system.encryption.key.v1:qCdgBaFx0QeKcHDP9Oi5npHl6dOOgPKefXduYFuljnMcNr0MQVsQeNsemnp6a3Spx11v0A==" internalId="_2gb-1jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Port" prompt="MDMLite_ConfigDB_Port?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="3306" internalId="_2gb-1zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Schema" prompt="MDMLite_ConfigDB_Schema?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="MDM" internalId="_2gb-2DqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MDMLite_ConfigDB_Server" prompt="MDMLite_ConfigDB_Server?" promptNeeded="false" repositoryContextId="_AJ2-U_oyEe2Cu_1EnuXiBw" type="id_String" value="w-kt-th-cmdm-application-as1-pr-mariadb01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com" internalId="_2gb-2TqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="Pipeline" prompt="Pipeline?" promptNeeded="false" repositoryContextId="_InS4kLUbEemP5sungzRBeQ" type="id_Integer" value="0" internalId="_2gb-2jqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="KeyStorePath" prompt="KeyStorePath?" promptNeeded="false" repositoryContextId="_514SIDd0Ee6DLK5036E4ng" type="id_String" value="" internalId="_2gb-2zqeEe-Sq532ZB9ouw"/>
+    <contextParameter comment="" name="MatchnMergeMaster_JobName" prompt="MatchnMergeMaster_JobName?" promptNeeded="false" repositoryContextId="_514SIDd0Ee6DLK5036E4ng" type="id_String" value="J100_Party_Match_n_Merge_Master" internalId="_2gb-3DqeEe-Sq532ZB9ouw"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms1024M&quot;,&quot;-Xmx4096M&quot;]}" show="false"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="352" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="1056" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="true"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:WdWe+AqgvLSQJ7zZUX/5z1UpZl7eaGU/PhXZM/GO" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;I:/Users/KarthikSou/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_0ggH8FZ4Ee6mLs39OBeeXg" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tPostgresqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="URL" value="" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.C_MDM_AMC_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.C_MDM_AMC_Port"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.C_MDM_AMC_Database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.C_MDM_AMC_Database" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.C_MDM_AMC_AdditionalParams" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.C_MDM_AMC_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.C_MDM_AMC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:g3MOkNg4fqfLnuPiuZR98pRSKRH1i/I2yNINN9WR5tFcW6Dpfcf7pVqOWcYoDiVJO99J1rT4"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statcatcher&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logcatcher&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;flowmeter&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_vedJAKJDEeiSl7TY3sKNvg" name="DQ_Rules"/>
+    <routinesParameter id="_DXcvgCeREe6Wca1QY60H1w" name="DataOperation"/>
+    <routinesParameter id="_DX6pkCeREe6Wca1QY60H1w" name="Mathematical"/>
+    <routinesParameter id="_DYTEECeREe6Wca1QY60H1w" name="Numeric"/>
+    <routinesParameter id="_DYgfcCeREe6Wca1QY60H1w" name="Relational"/>
+    <routinesParameter id="_DUoFACeREe6Wca1QY60H1w" name="SQLike"/>
+    <routinesParameter id="_DY0BcCeREe6Wca1QY60H1w" name="StringHandling"/>
+    <routinesParameter id="_DZEgICeREe6Wca1QY60H1w" name="TalendDataGenerator"/>
+    <routinesParameter id="_DZR7gCeREe6Wca1QY60H1w" name="TalendDate"/>
+    <routinesParameter id="_DZ1VICeREe6Wca1QY60H1w" name="TalendStringUtil"/>
+    <routinesParameter id="_DZhzICeREe6Wca1QY60H1w" name="TalendString"/>
+  </parameters>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-320" posY="-992">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="-992">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_4" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\n*** &quot;+ jobName + &quot;  ===> START ***\n&quot;);&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_4"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="-192" posY="-320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="J140_Party_MasterSurvivedRecords"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="NON_PROD"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ZAYMcKnKEe6WGbWtnzfrSA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Call &quot;J140_Party_MasterSurvivedRecords&quot; child job"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tChronometerStart" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-64" posY="-992">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tChronometerStart_1" show="false"/>
+    <elementParameter field="TEXT" name="CAPTION" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-224" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tChronometerStop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tChronometerStop_1" show="false"/>
+    <elementParameter field="RADIO" name="SINCE_BEGINNING" value="true"/>
+    <elementParameter field="RADIO" name="SINCE_STARTER" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="STARTER" value="" show="false"/>
+    <elementParameter field="CHECK" name="DISPLAY" value="true"/>
+    <elementParameter field="CHECK" name="DISPLAY_COMPONENT_NAME" value="true"/>
+    <elementParameter field="TEXT" name="CAPTION" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DISPLAY_READABLE_DURATION" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\n*** &quot;+ jobName + &quot; ===> END ***\n&quot;);&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="-320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1" show="false"/>
+    <elementParameter field="TABLE" name="VARIABLES">
+      <elementValue elementRef="KEY" value="&quot;status&quot;"/>
+      <elementValue elementRef="VALUE" value="jobName+&quot;_END&quot;"/>
+      <elementValue elementRef="KEY" value="&quot;modifiedBy&quot;"/>
+      <elementValue elementRef="VALUE" value="jobName"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSetGlobalVar_1"/>
+  </node>
+  <node componentName="KTAXA_C_MDM_UpdateBatch" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="KTAXA_C_MDM_UpdateBatch_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="SUBJOB_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value=""/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_2" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_2:COMPONENT_LIST" value="tSetGlobalVar_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="KTAXA_C_MDM_UpdateBatch"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1" show="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="batch_id"/>
+      <elementValue elementRef="VALUE" value="new BigDecimal(context.Batch_ID.toString())"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mdm_status"/>
+      <elementValue elementRef="VALUE" value="&quot;C&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="stg_etl_mdm_batch_cntrl_tbl" name="tFixedFlowInput_1">
+      <column comment="" key="false" length="32" name="batch_id" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="mdm_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="768" posY="-192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_njQYYGchEe64lexzV0cw9A" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="Create_CustCore_Conn_1_tDBConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.KTAXA_CustCore_DB_Server" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.KTAXA_CustCore_DB_Port" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.KTAXA_CustCore_DB_Database" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.KTAXA_CustCore_DB_Schema" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.KTAXA_CustCore_DB_Login" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:OoUdB7lIXgwXufev98IlHkd7/RP0xOdFSwT2JQNJKTTSGlVORUiBTBoUvSzpbOpewFoIG/SNaji+euBB8xM=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;stg_etl_mdm_batch_cntrl_tbl&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE"/>
+    <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
+    <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.KTAXA_CustCore_DB_AdditionalParams" show="false"/>
+    <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="batch_id"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mdm_status"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_LOWERCASE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="stg_etl_mdm_batch_cntrl_tbl" name="tDBOutput_1">
+      <column comment="" key="true" length="32" name="batch_id" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="mdm_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="stg_etl_mdm_batch_cntrl_tbl" name="REJECT">
+      <column comment="" key="true" length="32" name="batch_id" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="mdm_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="Create_CustCore_Conn_1_tDBConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="commit CustCore"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBCommit_1"/>
+  </node>
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="-992">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_2" show="false"/>
+    <elementParameter field="TABLE" name="VARIABLES">
+      <elementValue elementRef="KEY" value="&quot;previousStage&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;EXTRACT&quot;"/>
+      <elementValue elementRef="KEY" value="&quot;previousJobName&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;J090_IngestFromStg&quot;"/>
+      <elementValue elementRef="KEY" value="&quot;currentStage&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;MATCH&quot;"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSetGlobalVar_2"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="-192" posY="-640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;bar&quot;;&#xA;log.info(&quot;All connections are successful&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="GetAccessTokenForEmailAPI" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="32" posY="-832">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="GetAccessTokenForEmailAPI_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tJava_3"/>
+    <elementParameter field="TEXT" name="LABEL" value="GetAccessTokenForEmailAPI"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="Create_CustCore_Conn" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="-992">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Create_CustCore_Conn_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="SUBJOB_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tSetGlobalVar_2"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_2" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_2:COMPONENT_LIST" value="tJava_4"/>
+    <elementParameter field="TEXT" name="LABEL" value="Create_CustCore_Conn"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="-5" offsetLabelY="0" posX="480" posY="-832">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;the end is near&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="1" offsetLabelY="1" posX="608" posY="-832">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;bar&quot;;&#xA;System.out.println(&quot;CustomerCore Db connection has been created&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="-576">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;QUERY ===> &quot; + ((String)globalMap.get(&quot;tDBInput_1_QUERY&quot;))"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_1"/>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="-640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_4VxKQLiAEe2fvrK1lthLOg" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="context.C_MDM_ProcessControl_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.C_MDM_ProcessControl_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.C_MDM_ProcessControl_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.C_MDM_ProcessControl_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.C_MDM_ProcessControl_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6Cr9DreMW9d2dAb0uol2UuIzqYyKan0ZdV8B7s2ipZO1NlQ505l7sFkXWQGbo8bkM831JGGWxKqzHUv2Ju6Rg9k="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="context.BatchControl_Table"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#xD;&#xA;SELECT Batch_ID&#xD;&#xA;FROM  &#xD;&#xA;&#x9;(&#xD;&#xA;&#x9;&#x9;&#x9;Select   Batch_ID, Batch_Priority&#xD;&#xA;&#x9;&#x9;&#x9;from&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;\&quot;&quot;+ context.C_MDM_ProcessControl_Schema + &quot;\&quot;.&quot; +context.BatchControl_Table +&quot;&#xD;&#xA;&#x9;&#x9;&#x9;where &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;(&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;(&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;stage = '&quot;+ globalMap.get(&quot;currentStage&quot;).toString() +&quot;' &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;and status = '&quot; + context.MatchnMergeMaster_JobName +&quot;_START'&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;) &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;and end_dt is null&#xD;&#xA;&#x9;&#x9;&#x9;order by&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Batch_Priority Desc, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Batch_ID Asc&#xD;&#xA;&#x9;) batchcontrol  &#xD;&#xA;LIMIT 1&#xD;&#xA;&#xD;&#xA;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.C_MDM_ProcessControl_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Batch_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" key="false" length="19" name="Batch_ID" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="-672">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_3" show="false"/>
+    <elementParameter field="TABLE" name="VARIABLES">
+      <elementValue elementRef="KEY" value="&quot;batchId&quot;"/>
+      <elementValue elementRef="VALUE" value="row1.Batch_ID"/>
+      <elementValue elementRef="KEY" value="&quot;C_Batchid&quot;"/>
+      <elementValue elementRef="VALUE" value="(int)row1.Batch_ID"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSetGlobalVar_3">
+      <column comment="" key="false" length="19" name="Batch_ID" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="-480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_5" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;bar&quot;;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_5"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_6" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;bar&quot;;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_6"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Job_KTAXA_SendError_Notification"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_R3YT4P5VEe6DfuT7ovL5qA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="Mail_API_Token"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Mail_API_Token"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="Job_In_Question"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="jobName"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="Error_Message"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Error_Message"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="Error_Type"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Error_Type"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="Error_Origin"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Error_Origin"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="Error_TimeOf"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Error_TimeOf"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="false"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node componentName="KTAXA_C_MDM_Error_Logging" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="-448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="KTAXA_C_MDM_Error_Logging_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="LABEL" value="KTAXA_C_MDM_Error_Logging"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="-192" posY="-480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_7" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.Batch_ID=((int)globalMap.get(&quot;C_Batchid&quot;));&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_7"/>
+  </node>
+  <node componentName="Get_Processcontrol_ConnMetadata" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Get_Processcontrol_ConnMetadata_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="SUBJOB_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value=""/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_2" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_2:COMPONENT_LIST" value="tJava_3"/>
+    <elementParameter field="TEXT" name="LABEL" value="Get_Processcontrol_ConnMetadata"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tPostgresqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="Create_CustCore_Conn_1_tDBConnection_2"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_4VxKQLiAEe2fvrK1lthLOg" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="context.C_MDM_ProcessControl_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.C_MDM_ProcessControl_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.C_MDM_ProcessControl_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.C_MDM_ProcessControl_Schema"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.C_MDM_ProcessControl_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nr1+rX6/pq1qFIIVtb47NeGe+Qm6FK0L/OQ6nT/22Eo8zdpdviifFdkZoP6vw7InD5fYZaGsVks3gPNcp6o5wN0="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot; &#xD;&#xA;&#x9;&#x9;Update &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;\&quot;&quot;  +  context.C_MDM_ProcessControl_Schema   +  &quot;\&quot;.run_conflict_resolution&#xD;&#xA;     set running_job=null  &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.C_MDM_ProcessControl_AdditionalParams"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Update Job Run status as Null"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_2"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tChronometerStart_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_4" offsetLabelX="0" offsetLabelY="0" source="tJava_4" target="tSetGlobalVar_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk8" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tSetGlobalVar_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tChronometerStart_1" offsetLabelX="0" offsetLabelY="0" source="tChronometerStart_1" target="tJava_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tChronometerStop_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tSetGlobalVar_1" offsetLabelX="0" offsetLabelY="0" source="tSetGlobalVar_1" target="tFixedFlowInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tSetGlobalVar_1" offsetLabelX="0" offsetLabelY="0" source="tSetGlobalVar_1" target="KTAXA_C_MDM_UpdateBatch_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk5" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tDBOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tDBCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tSetGlobalVar_2" offsetLabelX="0" offsetLabelY="0" source="tSetGlobalVar_2" target="Create_CustCore_Conn_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk6" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="No_Batch_Found" lineStyle="6" metaname="tJava_3" offsetLabelX="0" offsetLabelY="-17" outputId="1" source="tJava_3" target="tJava_5">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="globalMap.get(&quot;tDBInput_1_NB_LINE&quot;) == null"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="No_Batch_Found" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tJava_3" target="Get_Processcontrol_ConnMetadata_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk11" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="Batch_Found" lineStyle="6" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tJava_3" target="tJava_7">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="globalMap.get(&quot;batchId&quot;)!=null"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Batch_Found" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tJava_3" target="GetAccessTokenForEmailAPI_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk9" show="false"/>
+  </connection>
+  <connection connectorName="TRIGGER_OUTPUT_1" label="OnComponentOk (TRIGGER_OUTPUT_1)" lineStyle="3" metaname="Create_CustCore_Conn_1" offsetLabelX="0" offsetLabelY="0" source="Create_CustCore_Conn_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk6" show="false"/>
+  </connection>
+  <connection connectorName="TRIGGER_OUTPUT_2" label="OnComponentError (TRIGGER_OUTPUT_2)" lineStyle="5" metaname="Create_CustCore_Conn_1" offsetLabelX="-14" offsetLabelY="18" source="Create_CustCore_Conn_1" target="tDie_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tSetGlobalVar_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tWarn_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError1" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJava_6" offsetLabelX="0" offsetLabelY="0" source="tJava_6" target="tRunJob_2">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.Error_Flag==true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If3" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_7" offsetLabelX="0" offsetLabelY="0" source="tJava_7" target="tRunJob_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
+  </connection>
+  <connection connectorName="TRIGGER_OUTPUT_3" label="OnComponentOk (TRIGGER_OUTPUT_3)" lineStyle="3" metaname="Get_Processcontrol_ConnMetadata_1" offsetLabelX="0" offsetLabelY="0" source="Get_Processcontrol_ConnMetadata_1" target="tDBInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk13" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBClose_1" offsetLabelX="0" offsetLabelY="0" source="tDBClose_1" target="tDBRow_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk7" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBClose_1" offsetLabelX="0" offsetLabelY="0" source="tDBClose_1" target="tJava_6">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk14" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_2" offsetLabelX="0" offsetLabelY="0" source="tDBRow_2" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk11" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_4" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tChronometerStart_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tChronometerStop_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="KTAXA_C_MDM_UpdateBatch_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="GetAccessTokenForEmailAPI_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Create_CustCore_Conn_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_5" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_6" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="KTAXA_C_MDM_Error_Logging_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_7" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Get_Processcontrol_ConnMetadata_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

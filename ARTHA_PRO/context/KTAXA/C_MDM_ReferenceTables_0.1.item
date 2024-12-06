@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_2rFrUHJzEe6A3v5hkhVJag" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_2rFrUXJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Database" prompt="C_MDM_ReferenceTables_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_2rFrUnJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Login" prompt="C_MDM_ReferenceTables_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="admin_cmdm_core"/>
+    <contextParameter xmi:id="_2rFrU3JzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_AdditionalParams" prompt="C_MDM_ReferenceTables_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_2rFrVHJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Password" prompt="C_MDM_ReferenceTables_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:As+PX3/DqwGLfa3cKVblKZhUp+lCZ4FwOVVPJKJ0kuTPxCEbp69dFZBZMgM="/>
+    <contextParameter xmi:id="_2rFrVXJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Server" prompt="C_MDM_ReferenceTables_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_2rFrVnJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Schema" prompt="C_MDM_ReferenceTables_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="public"/>
+    <contextParameter xmi:id="_2rFrV3JzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Port" prompt="C_MDM_ReferenceTables_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="5432"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_2rFrWHJzEe6A3v5hkhVJag" confirmationNeeded="false" name="NON_PROD">
+    <contextParameter xmi:id="_2rFrWXJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Database" prompt="C_MDM_ReferenceTables_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_2rFrWnJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Login" prompt="C_MDM_ReferenceTables_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="admin_cmdm_core"/>
+    <contextParameter xmi:id="_2rFrW3JzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_AdditionalParams" prompt="C_MDM_ReferenceTables_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_2rFrXHJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Password" prompt="C_MDM_ReferenceTables_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:Jk6pSDPBTzh7jL3KbaMLZFmIVBBX6zF37sErkSPgsyhOeRHaYTwaAuMmgFc="/>
+    <contextParameter xmi:id="_2rFrXXJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Server" prompt="C_MDM_ReferenceTables_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_2rFrXnJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Schema" prompt="C_MDM_ReferenceTables_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="public"/>
+    <contextParameter xmi:id="_2rFrX3JzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Port" prompt="C_MDM_ReferenceTables_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="5432"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_2rFrYHJzEe6A3v5hkhVJag" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_2rFrYXJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Database" prompt="C_MDM_ReferenceTables_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_2rFrYnJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Login" prompt="C_MDM_ReferenceTables_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="admin_cmdm_core"/>
+    <contextParameter xmi:id="_2rFrY3JzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_AdditionalParams" prompt="C_MDM_ReferenceTables_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_2rFrZHJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Password" prompt="C_MDM_ReferenceTables_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:Ni4/X/MR3ZAzq3I1rApxOoahHFw5feLKO9ZEn37nktZWquDsj/+llk2Iwpo="/>
+    <contextParameter xmi:id="_2rFrZXJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Server" prompt="C_MDM_ReferenceTables_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_2rFrZnJzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Schema" prompt="C_MDM_ReferenceTables_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="public"/>
+    <contextParameter xmi:id="_2rFrZ3JzEe6A3v5hkhVJag" comment="" name="C_MDM_ReferenceTables_Port" prompt="C_MDM_ReferenceTables_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="5432"/>
+  </talendfile:ContextType>
+</xmi:XMI>

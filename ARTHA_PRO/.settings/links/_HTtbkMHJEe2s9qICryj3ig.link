@@ -1,0 +1,86 @@
+{
+  "itemId" : "_HTtbkMHJEe2s9qICryj3ig",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_UiRDwLhWEe2fvrK1lthLOg",
+    "parameterList" : [ {
+      "id" : "_OBy4A7hkEe2fvrK1lthLOg",
+      "name" : "Staging_Password"
+    }, {
+      "id" : "_OBy4ArhkEe2fvrK1lthLOg",
+      "name" : "Staging_AdditionalParams"
+    }, {
+      "id" : "_OBy4BbhkEe2fvrK1lthLOg",
+      "name" : "Staging_Database"
+    }, {
+      "id" : "_OBy4B7hkEe2fvrK1lthLOg",
+      "name" : "Staging_Schema"
+    }, {
+      "id" : "_OBy4BLhkEe2fvrK1lthLOg",
+      "name" : "Staging_Server"
+    }, {
+      "id" : "_OBy4AbhkEe2fvrK1lthLOg",
+      "name" : "Staging_Port"
+    }, {
+      "id" : "_OBy4BrhkEe2fvrK1lthLOg",
+      "name" : "Staging_Login"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_hzoP0AetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Schema"
+    }, {
+      "id" : "_hzoP0QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_hzoP0wetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_hzoP1QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_UiRDwLhWEe2fvrK1lthLOg",
+    "parameterList" : [ {
+      "id" : "_rWHccwL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Password"
+    }, {
+      "id" : "_rWHccgL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_AdditionalParams"
+    }, {
+      "id" : "_rWHcdQL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Database"
+    }, {
+      "id" : "_rWHcdwL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Schema"
+    }, {
+      "id" : "_rWHcdAL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Server"
+    }, {
+      "id" : "_rWHccQL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Port"
+    }, {
+      "id" : "_rWHcdgL8Ee6qqdKvG09KWQ",
+      "name" : "Staging_Login"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_PdSPETDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Schema"
+    }, {
+      "id" : "_PdSPEjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_PdSPFDDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_PdSPFjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Database"
+    } ]
+  } ]
+}

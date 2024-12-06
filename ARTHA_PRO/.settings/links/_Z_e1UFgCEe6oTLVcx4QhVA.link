@@ -1,0 +1,166 @@
+{
+  "itemId" : "_Z_e1UFgCEe6oTLVcx4QhVA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_GftBACW8Ee6-DOSa3Omt8Q",
+      "name" : "BusinessApplicationName"
+    }, {
+      "id" : "_5l1hEF4uEe6YOqT5_tD7tQ",
+      "name" : "IMDMConn_Name"
+    }, {
+      "id" : "_Pe2bwF4vEe6YOqT5_tD7tQ",
+      "name" : "InformaticaMDM_DataSourceName"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_hzoP0QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_hzoP1QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_hzoP0wetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_hzoP0AetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Schema"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_wv0FwECZEe699LJxJYFrmA",
+    "parameterList" : [ {
+      "id" : "_wwc-8UCZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_AdditionalParams"
+    }, {
+      "id" : "_wwc-9UCZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Database"
+    }, {
+      "id" : "_wwc-80CZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Login"
+    }, {
+      "id" : "_wwc-9ECZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Password"
+    }, {
+      "id" : "_wwc-8kCZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Port"
+    }, {
+      "id" : "_wwc-9kCZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Schema"
+    }, {
+      "id" : "_wwc-90CZEe699LJxJYFrmA",
+      "name" : "InformaticaMDM_Server"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_GftBBCW8Ee6-DOSa3Omt8Q",
+      "name" : "BusinessApplicationName"
+    }, {
+      "id" : "_5l1hEV4uEe6YOqT5_tD7tQ",
+      "name" : "IMDMConn_Name"
+    }, {
+      "id" : "_Pe2bwV4vEe6YOqT5_tD7tQ",
+      "name" : "InformaticaMDM_DataSourceName"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_PdSPEjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_PdSPFjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_PdSPFDDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_PdSPETDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Schema"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_wv0FwECZEe699LJxJYFrmA",
+    "parameterList" : [ {
+      "id" : "_OBwpoVgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_AdditionalParams"
+    }, {
+      "id" : "_OBwppVgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Database"
+    }, {
+      "id" : "_OBwpo1gDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Login"
+    }, {
+      "id" : "_OBwppFgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Password"
+    }, {
+      "id" : "_OBwpolgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Port"
+    }, {
+      "id" : "_OBwpplgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Schema"
+    }, {
+      "id" : "_OBwpp1gDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_GftBCCW8Ee6-DOSa3Omt8Q",
+      "name" : "BusinessApplicationName"
+    }, {
+      "id" : "_5l1hEl4uEe6YOqT5_tD7tQ",
+      "name" : "IMDMConn_Name"
+    }, {
+      "id" : "_Pe2bwl4vEe6YOqT5_tD7tQ",
+      "name" : "InformaticaMDM_DataSourceName"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_ZegbMiSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_ZegbNiSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_ZegbNCSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_ZegbMSSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_Schema"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_wv0FwECZEe699LJxJYFrmA",
+    "parameterList" : [ {
+      "id" : "_OBwpqVgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_AdditionalParams"
+    }, {
+      "id" : "_OBwprVgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Database"
+    }, {
+      "id" : "_OBwpq1gDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Login"
+    }, {
+      "id" : "_OBwprFgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Password"
+    }, {
+      "id" : "_OBwpqlgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Port"
+    }, {
+      "id" : "_OBwprlgDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Schema"
+    }, {
+      "id" : "_OBwpr1gDEe6oTLVcx4QhVA",
+      "name" : "InformaticaMDM_Server"
+    } ]
+  } ]
+}

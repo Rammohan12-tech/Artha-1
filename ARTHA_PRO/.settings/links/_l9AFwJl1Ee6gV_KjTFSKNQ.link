@@ -1,0 +1,86 @@
+{
+  "itemId" : "_l9AFwJl1Ee6gV_KjTFSKNQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_hzoP0AetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Schema"
+    }, {
+      "id" : "_hzoP0QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_hzoP0wetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_hzoP1QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_ywV00GNQEe6lNbaf--VoXg",
+    "parameterList" : [ {
+      "id" : "_ywp95GNQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_Schema"
+    }, {
+      "id" : "_ywp952NQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_Password"
+    }, {
+      "id" : "_ywp942NQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_AdditionalParams"
+    }, {
+      "id" : "_ywp95WNQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_ServiceName"
+    }, {
+      "id" : "_ywp94WNQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_Login"
+    }, {
+      "id" : "_ywp94mNQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_Server"
+    }, {
+      "id" : "_ywp95mNQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_Port"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_PdSPETDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Schema"
+    }, {
+      "id" : "_PdSPEjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_PdSPFDDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_PdSPFjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Database"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_ywV00GNQEe6lNbaf--VoXg",
+    "parameterList" : [ {
+      "id" : "_ywp95GNQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_Schema"
+    }, {
+      "id" : "_ywp952NQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_Password"
+    }, {
+      "id" : "_ywp942NQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_AdditionalParams"
+    }, {
+      "id" : "_ywp95WNQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_ServiceName"
+    }, {
+      "id" : "_ywp94WNQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_Login"
+    }, {
+      "id" : "_ywp94mNQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_Server"
+    }, {
+      "id" : "_ywp95mNQEe6lNbaf--VoXg",
+      "name" : "ODS_DDS_Port"
+    } ]
+  } ]
+}

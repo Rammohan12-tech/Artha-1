@@ -1,0 +1,145 @@
+{
+  "itemId" : "_e7yE4GmVEe6A2OaO8cO4sQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "__8188GciEe64lexzV0cw9A",
+    "parameterList" : [ {
+      "id" : "__9QMoWciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Port"
+    }, {
+      "id" : "__9QMo2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Server"
+    }, {
+      "id" : "__9QMp2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_AdditionalParams"
+    }, {
+      "id" : "__9QMpGciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Database"
+    }, {
+      "id" : "__9QMomciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Schema"
+    }, {
+      "id" : "__9QMpWciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Login"
+    }, {
+      "id" : "__9QMpmciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Password"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_AJ2-U_oyEe2Cu_1EnuXiBw",
+    "parameterList" : [ {
+      "id" : "_JZyCRsKwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Login"
+    }, {
+      "id" : "_JZyCQ8KwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_JZyCQsKwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_JZyCRMKwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Password"
+    }, {
+      "id" : "_JZyCQcKwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_JZyCR8KwEe2HltkTjkEXnQ",
+      "name" : "MDMLite_ConfigDB_Server"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "__8188GciEe64lexzV0cw9A",
+    "parameterList" : [ {
+      "id" : "__9QMqmciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Port"
+    }, {
+      "id" : "__9QMrGciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Server"
+    }, {
+      "id" : "__9QMsGciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_AdditionalParams"
+    }, {
+      "id" : "__9QMrWciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Database"
+    }, {
+      "id" : "__9QMq2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Schema"
+    }, {
+      "id" : "__9QMrmciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Login"
+    }, {
+      "id" : "__9QMr2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Password"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_AJ2-U_oyEe2Cu_1EnuXiBw",
+    "parameterList" : [ {
+      "id" : "_7rSKJgxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Login"
+    }, {
+      "id" : "_7rSKIwxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_7rSKIgxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_7rSKJAxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Password"
+    }, {
+      "id" : "_7rSKIQxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_7rSKJwxqEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "__8188GciEe64lexzV0cw9A",
+    "parameterList" : [ {
+      "id" : "__9QMs2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Port"
+    }, {
+      "id" : "__9QMtWciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Server"
+    }, {
+      "id" : "__9QMuWciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_AdditionalParams"
+    }, {
+      "id" : "__9QMtmciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Database"
+    }, {
+      "id" : "__9QMtGciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Schema"
+    }, {
+      "id" : "__9QMt2ciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Login"
+    }, {
+      "id" : "__9QMuGciEe64lexzV0cw9A",
+      "name" : "KTAXA_CustCore_DB_Password"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_AJ2-U_oyEe2Cu_1EnuXiBw",
+    "parameterList" : [ {
+      "id" : "_SQ7hVgxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Login"
+    }, {
+      "id" : "_SQ7hUwxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_SQ7hUgxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_SQ7hVAxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Password"
+    }, {
+      "id" : "_SQ7hUQxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_SQ7hVwxrEe6rVfDsCy1A0A",
+      "name" : "MDMLite_ConfigDB_Server"
+    } ]
+  } ]
+}

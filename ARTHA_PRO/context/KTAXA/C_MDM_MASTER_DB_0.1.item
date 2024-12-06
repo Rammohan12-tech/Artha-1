@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_bnFi0LiBEe2fvrK1lthLOg" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_bnFi0biBEe2fvrK1lthLOg" comment="" name="MDMMaster_Schema" prompt="MDMMaster_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDMMaster"/>
+    <contextParameter xmi:id="_bnFi0riBEe2fvrK1lthLOg" comment="" name="MDMMaster_Server" prompt="MDMMaster_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_bnFi07iBEe2fvrK1lthLOg" comment="" name="MDMMaster_Login" prompt="MDMMaster_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="admin_cmdm_core"/>
+    <contextParameter xmi:id="_bnFi1LiBEe2fvrK1lthLOg" comment="" name="MDMMaster_AdditionalParams" prompt="MDMMaster_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_bnFi1biBEe2fvrK1lthLOg" comment="" name="MDMMaster_Database" prompt="MDMMaster_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_bnFi1riBEe2fvrK1lthLOg" comment="" name="MDMMaster_Password" prompt="MDMMaster_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:t2cFx1RhtpwUSVMqBbpI5dlSHsdMhUq9KhNEh0eWw73hx+DNvWJNTEPocqw="/>
+    <contextParameter xmi:id="_bnFi17iBEe2fvrK1lthLOg" comment="" name="MDMMaster_Port" prompt="MDMMaster_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_IlPj4AMPEe6qqdKvG09KWQ" confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter xmi:id="_IlPj4QMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Schema" prompt="MDMMaster_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDMMaster"/>
+    <contextParameter xmi:id="_IlPj4gMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Server" prompt="MDMMaster_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_IlPj4wMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Login" prompt="MDMMaster_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="admin_cmdm_core"/>
+    <contextParameter xmi:id="_IlPj5AMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_AdditionalParams" prompt="MDMMaster_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_IlPj5QMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Database" prompt="MDMMaster_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_IlPj5gMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Password" prompt="MDMMaster_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:uYC8pJDFPPbQfQBUknc/r77gEQYqwfEUby7/VcoDtU1Mzf8mw/yG4DpzzMs="/>
+    <contextParameter xmi:id="_IlPj5wMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Port" prompt="MDMMaster_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_IlPj6AMPEe6qqdKvG09KWQ" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_IlPj6QMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Schema" prompt="MDMMaster_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDMMaster"/>
+    <contextParameter xmi:id="_IlPj6gMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Server" prompt="MDMMaster_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-core-as1-pr-postgres01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_IlPj6wMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Login" prompt="MDMMaster_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="custdbetlusermdm"/>
+    <contextParameter xmi:id="_IlPj7AMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_AdditionalParams" prompt="MDMMaster_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_IlPj7QMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Database" prompt="MDMMaster_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_IlPj7gMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Password" prompt="MDMMaster_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:pg5XHdD0euUnu53tz916tPs4K5FpILYKNOtydyAv7scRJOkkFVJCPcUNw/nK2u5H993cMQ=="/>
+    <contextParameter xmi:id="_IlPj7wMPEe6qqdKvG09KWQ" comment="" name="MDMMaster_Port" prompt="MDMMaster_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+  </talendfile:ContextType>
+</xmi:XMI>

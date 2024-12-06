@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_ywp94GNQEe6lNbaf--VoXg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_ywp94WNQEe6lNbaf--VoXg" comment="" name="ODS_DDS_Login" prompt="ODS_DDS_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="TH_USER_SIT_ROLE_EXT"/>
+  <contextParameter xmi:id="_ywp94mNQEe6lNbaf--VoXg" comment="" name="ODS_DDS_Server" prompt="ODS_DDS_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.144.128.106"/>
+  <contextParameter xmi:id="_ywp942NQEe6lNbaf--VoXg" comment="" name="ODS_DDS_AdditionalParams" prompt="ODS_DDS_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_ywp95GNQEe6lNbaf--VoXg" comment="" name="ODS_DDS_Schema" prompt="ODS_DDS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="S1SASOBRTH"/>
+  <contextParameter xmi:id="_ywp95WNQEe6lNbaf--VoXg" comment="" name="ODS_DDS_ServiceName" prompt="ODS_DDS_ServiceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ODSR1S"/>
+  <contextParameter xmi:id="_ywp95mNQEe6lNbaf--VoXg" comment="" name="ODS_DDS_Port" prompt="ODS_DDS_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1521"/>
+  <contextParameter xmi:id="_ywp952NQEe6lNbaf--VoXg" comment="" name="ODS_DDS_Password" prompt="ODS_DDS_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:fBcELeIp44cm58GQnDON12/3Gsh4fIFXafhlt7RBm+fsm6eexMl2i/O+3dONFqzSfXJJf8vpvOQ="/>
+</talendfile:ContextType>

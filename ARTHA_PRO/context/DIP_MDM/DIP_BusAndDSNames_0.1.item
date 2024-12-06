@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_Gd1YwSW8Ee6-DOSa3Omt8Q" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_GftBACW8Ee6-DOSa3Omt8Q" comment="" name="BusinessApplicationName" prompt="BusinessApplicationName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C-MDM&quot;"/>
+    <contextParameter xmi:id="_GftBASW8Ee6-DOSa3Omt8Q" comment="" name="Staging_DataSourceName" prompt="Staging_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Staging NonProd"/>
+    <contextParameter xmi:id="_GftBAiW8Ee6-DOSa3Omt8Q" comment="" name="PStaging_DataSourceName" prompt="PStaging_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C-MDM PStaging NonProd&quot;"/>
+    <contextParameter xmi:id="_GftBAyW8Ee6-DOSa3Omt8Q" comment="" name="ProcessControl_DataSourceName" prompt="ProcessControl_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM ProcessControl NonProd"/>
+    <contextParameter xmi:id="_AEZDoCifEe6Wca1QY60H1w" comment="" name="AMC_DataSourceName" prompt="AMC_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C_MDMCore_Amc_NonProd"/>
+    <contextParameter xmi:id="_AEZDoSifEe6Wca1QY60H1w" comment="" name="MDMMaster_DataSourceName" prompt="MDMMaster_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM Master NonProd"/>
+    <contextParameter xmi:id="_wmJl4FuUEe62-5AJQXZXcQ" comment="" name="CustDataHub_DataSourceName" prompt="CustDataHub_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CustDataHub NonProd"/>
+    <contextParameter xmi:id="_5l1hEF4uEe6YOqT5_tD7tQ" comment="" name="IMDMConn_Name" prompt="IMDMConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;IMDM Conn&quot;"/>
+    <contextParameter xmi:id="_68PTUF4uEe6YOqT5_tD7tQ" comment="" name="MDMMasterConn_Name" prompt="MDMMasterConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDMMaster Conn"/>
+    <contextParameter xmi:id="_Pe2bwF4vEe6YOqT5_tD7tQ" comment="" name="InformaticaMDM_DataSourceName" prompt="InformaticaMDM_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="InformaticaMDM NonProd"/>
+    <contextParameter xmi:id="_QZI-UGDjEe6QlclCLIInYQ" comment="" name="PStagingConn_Name" prompt="PStagingConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PStaging Conn&#x9;"/>
+    <contextParameter xmi:id="_WP9_QGX7Ee64PO-97ipWbg" comment="" name="StagingConn_Name" prompt="StagingConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Staging Conn"/>
+    <contextParameter xmi:id="_RyW2cGyIEe6JPdJibfKamw" comment="" name="Data_Model_Name" prompt="Data_Model_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="KTAXA_C_MDM_Master_DM"/>
+    <contextParameter xmi:id="_UgR1QGyIEe6JPdJibfKamw" comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MariaDB"/>
+    <contextParameter xmi:id="_8_gFMHkBEe6Ce8jH54sj1A" comment="" name="MatchGroupName" prompt="MatchGroupName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_udTuoCQJEe-3O4_fdtcDBQ" comment="" name="CustomerCore_DataSourceName" prompt="CustomerCore_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CustomerCore NonProd"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_Gd1YwiW8Ee6-DOSa3Omt8Q" confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter xmi:id="_GftBBCW8Ee6-DOSa3Omt8Q" comment="" name="BusinessApplicationName" prompt="BusinessApplicationName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C-MDM&quot;"/>
+    <contextParameter xmi:id="_GftBBSW8Ee6-DOSa3Omt8Q" comment="" name="Staging_DataSourceName" prompt="Staging_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Staging NonProd"/>
+    <contextParameter xmi:id="_GftBBiW8Ee6-DOSa3Omt8Q" comment="" name="PStaging_DataSourceName" prompt="PStaging_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C-MDM PStaging NonProd&quot;"/>
+    <contextParameter xmi:id="_GftBByW8Ee6-DOSa3Omt8Q" comment="" name="ProcessControl_DataSourceName" prompt="ProcessControl_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM ProcessControl NonProd"/>
+    <contextParameter xmi:id="_AEZDoiifEe6Wca1QY60H1w" comment="" name="AMC_DataSourceName" prompt="AMC_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C_MDMCore_Amc_NonProd"/>
+    <contextParameter xmi:id="_AEZDoyifEe6Wca1QY60H1w" comment="" name="MDMMaster_DataSourceName" prompt="MDMMaster_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM Master NonProd"/>
+    <contextParameter xmi:id="_wmJl4VuUEe62-5AJQXZXcQ" comment="" name="CustDataHub_DataSourceName" prompt="CustDataHub_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CustDataHub NonProd"/>
+    <contextParameter xmi:id="_5l1hEV4uEe6YOqT5_tD7tQ" comment="" name="IMDMConn_Name" prompt="IMDMConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;IMDM Conn&quot;"/>
+    <contextParameter xmi:id="_68PTUV4uEe6YOqT5_tD7tQ" comment="" name="MDMMasterConn_Name" prompt="MDMMasterConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDMMaster Conn"/>
+    <contextParameter xmi:id="_Pe2bwV4vEe6YOqT5_tD7tQ" comment="" name="InformaticaMDM_DataSourceName" prompt="InformaticaMDM_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="InformaticaMDM NonProd"/>
+    <contextParameter xmi:id="_QZI-UWDjEe6QlclCLIInYQ" comment="" name="PStagingConn_Name" prompt="PStagingConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PStaging Conn&#x9;"/>
+    <contextParameter xmi:id="_WP9_QWX7Ee64PO-97ipWbg" comment="" name="StagingConn_Name" prompt="StagingConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Staging Conn"/>
+    <contextParameter xmi:id="_RyW2cWyIEe6JPdJibfKamw" comment="" name="Data_Model_Name" prompt="Data_Model_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="KTAXA_C_MDM_Master_DM"/>
+    <contextParameter xmi:id="_UgR1QWyIEe6JPdJibfKamw" comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MariaDB"/>
+    <contextParameter xmi:id="_8_gFMXkBEe6Ce8jH54sj1A" comment="" name="MatchGroupName" prompt="MatchGroupName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_udTuoSQJEe-3O4_fdtcDBQ" comment="" name="CustomerCore_DataSourceName" prompt="CustomerCore_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CustomerCore NonProd"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_Gd1YwyW8Ee6-DOSa3Omt8Q" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_GftBCCW8Ee6-DOSa3Omt8Q" comment="" name="BusinessApplicationName" prompt="BusinessApplicationName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C-MDM&quot;"/>
+    <contextParameter xmi:id="_GftBCSW8Ee6-DOSa3Omt8Q" comment="" name="Staging_DataSourceName" prompt="Staging_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Staging Prod"/>
+    <contextParameter xmi:id="_GftBCiW8Ee6-DOSa3Omt8Q" comment="" name="PStaging_DataSourceName" prompt="PStaging_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C-MDM PStaging Prod&quot;"/>
+    <contextParameter xmi:id="_GftBCyW8Ee6-DOSa3Omt8Q" comment="" name="ProcessControl_DataSourceName" prompt="ProcessControl_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM ProcessControl Prod"/>
+    <contextParameter xmi:id="_AEZDpCifEe6Wca1QY60H1w" comment="" name="AMC_DataSourceName" prompt="AMC_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM AMC Prod"/>
+    <contextParameter xmi:id="_AEZDpSifEe6Wca1QY60H1w" comment="" name="MDMMaster_DataSourceName" prompt="MDMMaster_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM Master Prod"/>
+    <contextParameter xmi:id="_wmJl4luUEe62-5AJQXZXcQ" comment="" name="CustDataHub_DataSourceName" prompt="CustDataHub_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CustDataHub Prod"/>
+    <contextParameter xmi:id="_5l1hEl4uEe6YOqT5_tD7tQ" comment="" name="IMDMConn_Name" prompt="IMDMConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;IMDM Conn&quot;"/>
+    <contextParameter xmi:id="_68PTUl4uEe6YOqT5_tD7tQ" comment="" name="MDMMasterConn_Name" prompt="MDMMasterConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDMMaster Conn"/>
+    <contextParameter xmi:id="_Pe2bwl4vEe6YOqT5_tD7tQ" comment="" name="InformaticaMDM_DataSourceName" prompt="InformaticaMDM_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="InformaticaMDM Prod"/>
+    <contextParameter xmi:id="_QZI-UmDjEe6QlclCLIInYQ" comment="" name="PStagingConn_Name" prompt="PStagingConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PStaging Conn&#x9;"/>
+    <contextParameter xmi:id="_WP9_QmX7Ee64PO-97ipWbg" comment="" name="StagingConn_Name" prompt="StagingConn_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Staging Conn"/>
+    <contextParameter xmi:id="_RyW2cmyIEe6JPdJibfKamw" comment="" name="Data_Model_Name" prompt="Data_Model_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="KTAXA_C_MDM_Master_Prod_DM"/>
+    <contextParameter xmi:id="_UgR1QmyIEe6JPdJibfKamw" comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MariaDB"/>
+    <contextParameter xmi:id="_8_gFMnkBEe6Ce8jH54sj1A" comment="" name="MatchGroupName" prompt="MatchGroupName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_udTuoiQJEe-3O4_fdtcDBQ" comment="" name="CustomerCore_DataSourceName" prompt="CustomerCore_DataSourceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CustomerCore Prod"/>
+  </talendfile:ContextType>
+</xmi:XMI>

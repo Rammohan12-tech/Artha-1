@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_516HUDd0Ee6DLK5036E4ng" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_56Gq0Dd0Ee6DLK5036E4ng" comment="" name="KeyStorePath" prompt="KeyStorePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/KeyStore"/>
+    <contextParameter xmi:id="_8eCicCswEe-ml9UJ_btqvw" comment="" name="MatchnMergeMaster_JobName" prompt="MatchnMergeMaster_JobName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="J100_Party_Match_n_Merge_Master"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_516uYDd0Ee6DLK5036E4ng" confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter xmi:id="_56Gq0Td0Ee6DLK5036E4ng" comment="" name="KeyStorePath" prompt="KeyStorePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/KeyStore"/>
+    <contextParameter xmi:id="_8eCicSswEe-ml9UJ_btqvw" comment="" name="MatchnMergeMaster_JobName" prompt="MatchnMergeMaster_JobName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="J100_Party_Match_n_Merge_Master"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_516uYTd0Ee6DLK5036E4ng" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_56Gq0jd0Ee6DLK5036E4ng" comment="" name="KeyStorePath" prompt="KeyStorePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_8eCiciswEe-ml9UJ_btqvw" comment="" name="MatchnMergeMaster_JobName" prompt="MatchnMergeMaster_JobName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="J100_Party_Match_n_Merge_Master"/>
+  </talendfile:ContextType>
+</xmi:XMI>

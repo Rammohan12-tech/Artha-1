@@ -1,0 +1,86 @@
+{
+  "itemId" : "_ii3fEMHKEe2s9qICryj3ig",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_hzoP0AetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Schema"
+    }, {
+      "id" : "_hzoP0QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_hzoP0wetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_hzoP1QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_mGeWcNVXEe2pctSpYpj7Mw",
+    "parameterList" : [ {
+      "id" : "_bnFi17iBEe2fvrK1lthLOg",
+      "name" : "PStaging_Port"
+    }, {
+      "id" : "_bnFi0riBEe2fvrK1lthLOg",
+      "name" : "PStaging_Server"
+    }, {
+      "id" : "_bnFi07iBEe2fvrK1lthLOg",
+      "name" : "PStaging_Login"
+    }, {
+      "id" : "_bnFi0biBEe2fvrK1lthLOg",
+      "name" : "PStaging_Schema"
+    }, {
+      "id" : "_bnFi1LiBEe2fvrK1lthLOg",
+      "name" : "PStaging_AdditionalParams"
+    }, {
+      "id" : "_bnFi1biBEe2fvrK1lthLOg",
+      "name" : "PStaging_Database"
+    }, {
+      "id" : "_bnFi1riBEe2fvrK1lthLOg",
+      "name" : "PStaging_Password"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_PdSPETDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Schema"
+    }, {
+      "id" : "_PdSPEjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_PdSPFDDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_PdSPFjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Database"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_mGeWcNVXEe2pctSpYpj7Mw",
+    "parameterList" : [ {
+      "id" : "_0EcwdwL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Port"
+    }, {
+      "id" : "_0EcwcgL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Server"
+    }, {
+      "id" : "_0EcwcwL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Login"
+    }, {
+      "id" : "_0EcwcQL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Schema"
+    }, {
+      "id" : "_0EcwdAL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_AdditionalParams"
+    }, {
+      "id" : "_0EcwdQL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Database"
+    }, {
+      "id" : "_0EcwdgL6Ee6qqdKvG09KWQ",
+      "name" : "PStaging_Password"
+    } ]
+  } ]
+}

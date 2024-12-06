@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_peaKkBb2Ee-bXcY7HJ6ohg" confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter xmi:id="_peaKkRb2Ee-bXcY7HJ6ohg" comment="" name="DS_TaskType" prompt="DS_TaskType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_peaKkhb2Ee-bXcY7HJ6ohg" comment="" name="DS_BusAppName" prompt="DS_BusAppName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM Party"/>
+    <contextParameter xmi:id="_peaKkxb2Ee-bXcY7HJ6ohg" comment="" name="DS_FinalJSON" prompt="DS_FinalJSON?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_peaKlBb2Ee-bXcY7HJ6ohg" comment="" name="DS_Rule_Name" prompt="DS_Rule_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Cust_WithNoGR&quot;"/>
+    <contextParameter xmi:id="_peaKlRb2Ee-bXcY7HJ6ohg" comment="" name="DS_REST_API_URL" prompt="DS_REST_API_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;http://65.2.127.150:8030/mdmlite/rest/stewardship/&quot;"/>
+    <contextParameter xmi:id="_peaKlhb2Ee-bXcY7HJ6ohg" comment="" name="DS_ApprovedStatus" prompt="DS_ApprovedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Approved&quot;"/>
+    <contextParameter xmi:id="_peaKlxb2Ee-bXcY7HJ6ohg" comment="" name="DS_DeletedStatus" prompt="DS_DeletedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Deleted&quot;"/>
+    <contextParameter xmi:id="_peaKmBb2Ee-bXcY7HJ6ohg" comment="" name="DS_NewStatus" prompt="DS_NewStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;New&quot;"/>
+    <contextParameter xmi:id="_peaKmRb2Ee-bXcY7HJ6ohg" comment="" name="DS_OpenStatus" prompt="DS_OpenStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Open&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_DRVNsOq6Ee2Am6QGEMyiuQ" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_DS23sOq6Ee2Am6QGEMyiuQ" comment="" name="DS_TaskType" prompt="DS_TaskType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_DS23seq6Ee2Am6QGEMyiuQ" comment="" name="DS_BusAppName" prompt="DS_BusAppName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM Party"/>
+    <contextParameter xmi:id="_DS23suq6Ee2Am6QGEMyiuQ" comment="" name="DS_FinalJSON" prompt="DS_FinalJSON?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_DS23s-q6Ee2Am6QGEMyiuQ" comment="" name="DS_Rule_Name" prompt="DS_Rule_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Cust_WithNoGR&quot;"/>
+    <contextParameter xmi:id="_CAZR0PmCEe2PO5KKhcwM3w" comment="" name="DS_REST_API_URL" prompt="DS_REST_API_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;http://65.2.127.150:8030/mdmlite/rest/stewardship/&quot;"/>
+    <contextParameter xmi:id="_TblMEGX7Ee64PO-97ipWbg" comment="" name="DS_ApprovedStatus" prompt="DS_ApprovedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Approved&quot;"/>
+    <contextParameter xmi:id="_nDQWwBb2Ee-bXcY7HJ6ohg" comment="" name="DS_DeletedStatus" prompt="DS_DeletedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Deleted&quot;"/>
+    <contextParameter xmi:id="_nDQWwRb2Ee-bXcY7HJ6ohg" comment="" name="DS_NewStatus" prompt="DS_NewStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;New&quot;"/>
+    <contextParameter xmi:id="_nDQWwhb2Ee-bXcY7HJ6ohg" comment="" name="DS_OpenStatus" prompt="DS_OpenStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Open&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_peaKmhb2Ee-bXcY7HJ6ohg" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_peaKmxb2Ee-bXcY7HJ6ohg" comment="" name="DS_TaskType" prompt="DS_TaskType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_peaKnBb2Ee-bXcY7HJ6ohg" comment="" name="DS_BusAppName" prompt="DS_BusAppName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C-MDM Party"/>
+    <contextParameter xmi:id="_peaKnRb2Ee-bXcY7HJ6ohg" comment="" name="DS_FinalJSON" prompt="DS_FinalJSON?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_peaKnhb2Ee-bXcY7HJ6ohg" comment="" name="DS_Rule_Name" prompt="DS_Rule_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Cust_WithNoGR&quot;"/>
+    <contextParameter xmi:id="_peaKnxb2Ee-bXcY7HJ6ohg" comment="" name="DS_REST_API_URL" prompt="DS_REST_API_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;http://65.2.127.150:8030/mdmlite/rest/stewardship/&quot;"/>
+    <contextParameter xmi:id="_peaKoBb2Ee-bXcY7HJ6ohg" comment="" name="DS_ApprovedStatus" prompt="DS_ApprovedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Approved&quot;"/>
+    <contextParameter xmi:id="_peaKoRb2Ee-bXcY7HJ6ohg" comment="" name="DS_DeletedStatus" prompt="DS_DeletedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Deleted&quot;"/>
+    <contextParameter xmi:id="_peaKohb2Ee-bXcY7HJ6ohg" comment="" name="DS_NewStatus" prompt="DS_NewStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;New&quot;"/>
+    <contextParameter xmi:id="_peaKoxb2Ee-bXcY7HJ6ohg" comment="" name="DS_OpenStatus" prompt="DS_OpenStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Open&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

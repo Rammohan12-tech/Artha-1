@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="__9QMoGciEe64lexzV0cw9A" confirmationNeeded="false" hide="true" name="Default">
+    <contextParameter xmi:id="__9QMoWciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Port" prompt="KTAXA_CustCore_DB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="__9QMomciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Schema" prompt="KTAXA_CustCore_DB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="l_th_custcore"/>
+    <contextParameter xmi:id="__9QMo2ciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Server" prompt="KTAXA_CustCore_DB_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-ats-asia-customercoreth-np-as1-postgres01.cnnatw2taj7y.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="__9QMpGciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Database" prompt="KTAXA_CustCore_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="customercoreth"/>
+    <contextParameter xmi:id="__9QMpWciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Login" prompt="KTAXA_CustCore_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ktaxa_mdmcustomercore_user"/>
+    <contextParameter xmi:id="__9QMpmciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Password" prompt="KTAXA_CustCore_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:h7N2oLexFyAn/t6z0zIHantH6xMTmisP8WmZBN1nrW/N8Y99rkscV8bFkDb4lv3N"/>
+    <contextParameter xmi:id="__9QMp2ciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_AdditionalParams" prompt="KTAXA_CustCore_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="__9QMqGciEe64lexzV0cw9A" comment="" name="new1" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="__9QMqWciEe64lexzV0cw9A" confirmationNeeded="false" hide="true" name="NON_PROD">
+    <contextParameter xmi:id="__9QMqmciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Port" prompt="KTAXA_CustCore_DB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="__9QMq2ciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Schema" prompt="KTAXA_CustCore_DB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="l_th_custcore"/>
+    <contextParameter xmi:id="__9QMrGciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Server" prompt="KTAXA_CustCore_DB_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-ats-asia-customercoreth-np-as1-postgres01.cnnatw2taj7y.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="__9QMrWciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Database" prompt="KTAXA_CustCore_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="customercoreth"/>
+    <contextParameter xmi:id="__9QMrmciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Login" prompt="KTAXA_CustCore_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ktaxa_mdmcustomercore_user"/>
+    <contextParameter xmi:id="__9QMr2ciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Password" prompt="KTAXA_CustCore_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:7qEUFkkdpnML21tGHHSCiE7JyZyc5DCz4yTpwX3aESMSd/Get8Lat3hziYnq0N9U"/>
+    <contextParameter xmi:id="__9QMsGciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_AdditionalParams" prompt="KTAXA_CustCore_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="__9QMsWciEe64lexzV0cw9A" comment="" name="new1" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="__9QMsmciEe64lexzV0cw9A" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="__9QMs2ciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Port" prompt="KTAXA_CustCore_DB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="__9QMtGciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Schema" prompt="KTAXA_CustCore_DB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="l_th_custcore"/>
+    <contextParameter xmi:id="__9QMtWciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Server" prompt="KTAXA_CustCore_DB_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-ats-asia-customercoreth-pr-as1-postgres01.cnnatw2taj7y.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="__9QMtmciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Database" prompt="KTAXA_CustCore_DB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="customercoreth"/>
+    <contextParameter xmi:id="__9QMt2ciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Login" prompt="KTAXA_CustCore_DB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ktaxa_mdmcustomercore_user"/>
+    <contextParameter xmi:id="__9QMuGciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_Password" prompt="KTAXA_CustCore_DB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:S5d9qLcP7DEz+rEJqC8/H8+ti5YrMbxKuz1DfVuVs7RAq1MmYEJN5ZtzVFJpmKjf"/>
+    <contextParameter xmi:id="__9QMuWciEe64lexzV0cw9A" comment="" name="KTAXA_CustCore_DB_AdditionalParams" prompt="KTAXA_CustCore_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="__9QMumciEe64lexzV0cw9A" comment="" name="new1" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

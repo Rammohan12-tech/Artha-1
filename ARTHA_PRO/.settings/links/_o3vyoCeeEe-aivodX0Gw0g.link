@@ -1,0 +1,148 @@
+{
+  "itemId" : "_o3vyoCeeEe-aivodX0Gw0g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_AEZDoSifEe6Wca1QY60H1w",
+      "name" : "MDMMaster_DataSourceName"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_hzoP0QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_hzoP1QetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_hzoP0wetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_hzoP0AetEe6rVJY2BA9hbQ",
+      "name" : "MDMLite_ConfigDB_Schema"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_H9VVENxcEe2c3pihwwSSfQ",
+    "parameterList" : [ {
+      "id" : "_bnFi07iBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_Login"
+    }, {
+      "id" : "_bnFi1LiBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_AdditionalParams"
+    }, {
+      "id" : "_bnFi1biBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_Database"
+    }, {
+      "id" : "_bnFi1riBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_Password"
+    }, {
+      "id" : "_bnFi0riBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_Server"
+    }, {
+      "id" : "_bnFi17iBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_Port"
+    }, {
+      "id" : "_bnFi0biBEe2fvrK1lthLOg",
+      "name" : "MDMMaster_Schema"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_AEZDoyifEe6Wca1QY60H1w",
+      "name" : "MDMMaster_DataSourceName"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_PdSPEjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_PdSPFjDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_PdSPFDDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_PdSPETDhEe-w1JtVhwTDVw",
+      "name" : "MDMLite_ConfigDB_Schema"
+    } ]
+  }, {
+    "contextName" : "NON_PROD",
+    "repoId" : "_H9VVENxcEe2c3pihwwSSfQ",
+    "parameterList" : [ {
+      "id" : "_IlPj4wMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Login"
+    }, {
+      "id" : "_IlPj5AMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_AdditionalParams"
+    }, {
+      "id" : "_IlPj5QMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Database"
+    }, {
+      "id" : "_IlPj5gMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Password"
+    }, {
+      "id" : "_IlPj4gMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Server"
+    }, {
+      "id" : "_IlPj5wMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Port"
+    }, {
+      "id" : "_IlPj4QMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Schema"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_Gd1YwCW8Ee6-DOSa3Omt8Q",
+    "parameterList" : [ {
+      "id" : "_AEZDpSifEe6Wca1QY60H1w",
+      "name" : "MDMMaster_DataSourceName"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_JZKXMMKwEe2HltkTjkEXnQ",
+    "parameterList" : [ {
+      "id" : "_ZegbMiSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_AdditionalParams"
+    }, {
+      "id" : "_ZegbNiSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_Database"
+    }, {
+      "id" : "_ZegbNCSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_Port"
+    }, {
+      "id" : "_ZegbMSSSEe-mDvDzVKwFSQ",
+      "name" : "MDMLite_ConfigDB_Schema"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_H9VVENxcEe2c3pihwwSSfQ",
+    "parameterList" : [ {
+      "id" : "_IlPj6wMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Login"
+    }, {
+      "id" : "_IlPj7AMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_AdditionalParams"
+    }, {
+      "id" : "_IlPj7QMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Database"
+    }, {
+      "id" : "_IlPj7gMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Password"
+    }, {
+      "id" : "_IlPj6gMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Server"
+    }, {
+      "id" : "_IlPj7wMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Port"
+    }, {
+      "id" : "_IlPj6QMPEe6qqdKvG09KWQ",
+      "name" : "MDMMaster_Schema"
+    } ]
+  } ]
+}

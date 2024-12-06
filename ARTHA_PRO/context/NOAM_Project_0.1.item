@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_5K_vINCkEemJaYQIDobe3w" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_5K_vIdCkEemJaYQIDobe3w" comment="" name="Pipeline" prompt="Pipeline?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter xmi:id="_Az95cNTIEemOVYv9xmas7w" comment="" name="LastJob_END" prompt="LastJob_END?" promptNeeded="false" type="id_String" value="Master_Generate_ConsumerBR_END"/>
+    <contextParameter xmi:id="_S00H4N_NEemuSrbyx4Ttsw" comment="" name="J119_SleepTimeInSecs" prompt="J119_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_Sjs6AN_eEemuSrbyx4Ttsw" comment="" name="J109_SleepTimeInSecs" prompt="J109_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_IjnJIOBiEemus_oXP-GKDA" comment="" name="Match_Master_SleepTimeInSecs" prompt="Match_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_V3RXkOBiEemus_oXP-GKDA" comment="" name="CBR_Master_SleepTimeInSecs" prompt="CBR_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_rMe7AOq9EemgDcInZnfKUA" comment="" name="NumberOfPipeLines" prompt="NumberOfPipeLines?" promptNeeded="false" type="id_Integer" value="4"/>
+    <contextParameter xmi:id="_hBK4cATmEeqOSM_gc5KPqQ" comment="" name="Batch_Id" prompt="Batch_Id?" promptNeeded="false" type="id_String" value="8"/>
+    <contextParameter xmi:id="_WRgdEDZEEeqPe_wwzQYxeg" comment="" name="BlackListThreshold" prompt="BlackListThreshold?" promptNeeded="false" type="id_Integer" value="15"/>
+    <contextParameter xmi:id="_z1PRQDh0EeqK85pHADP0fw" comment="" name="maxMasterJobIteration" prompt="maxMasterJobIteration?" promptNeeded="false" type="id_Integer" value="100"/>
+    <contextParameter xmi:id="_z1PRQTh0EeqK85pHADP0fw" comment="" name="currentMasterJobiteration" prompt="currentMasterJobiteration?" promptNeeded="false" type="id_Integer" value="1"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_5K_vItCkEemJaYQIDobe3w" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_5K_vI9CkEemJaYQIDobe3w" comment="" name="Pipeline" prompt="Pipeline?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter xmi:id="_Az95ctTIEemOVYv9xmas7w" comment="" name="LastJob_END" prompt="LastJob_END?" promptNeeded="false" type="id_String" value="Master_Generate_ConsumerBR_END"/>
+    <contextParameter xmi:id="_S00H4t_NEemuSrbyx4Ttsw" comment="" name="J119_SleepTimeInSecs" prompt="J119_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_Sjs6At_eEemuSrbyx4Ttsw" comment="" name="J109_SleepTimeInSecs" prompt="J109_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_IjnwMeBiEemus_oXP-GKDA" comment="" name="Match_Master_SleepTimeInSecs" prompt="Match_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_V3RXkuBiEemus_oXP-GKDA" comment="" name="CBR_Master_SleepTimeInSecs" prompt="CBR_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_rMe7Auq9EemgDcInZnfKUA" comment="" name="NumberOfPipeLines" prompt="NumberOfPipeLines?" promptNeeded="false" type="id_Integer" value="4"/>
+    <contextParameter xmi:id="_hBK4cgTmEeqOSM_gc5KPqQ" comment="" name="Batch_Id" prompt="Batch_Id?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_WRgdEjZEEeqPe_wwzQYxeg" comment="" name="BlackListThreshold" prompt="BlackListThreshold?" promptNeeded="false" type="id_Integer" value="15"/>
+    <contextParameter xmi:id="_z1PRRDh0EeqK85pHADP0fw" comment="" name="maxMasterJobIteration" prompt="maxMasterJobIteration?" promptNeeded="false" type="id_Integer" value="100"/>
+    <contextParameter xmi:id="_z1PRRTh0EeqK85pHADP0fw" comment="" name="currentMasterJobiteration" prompt="currentMasterJobiteration?" promptNeeded="false" type="id_Integer" value="1"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_34ks0NP4EemH7e8Xgt9fhg" confirmationNeeded="false" name="DEV_TUNNEL">
+    <contextParameter xmi:id="_34ks0dP4EemH7e8Xgt9fhg" comment="" name="Pipeline" prompt="Pipeline?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter xmi:id="_Az95cdTIEemOVYv9xmas7w" comment="" name="LastJob_END" prompt="LastJob_END?" promptNeeded="false" type="id_String" value="Master_Generate_ConsumerBR_END"/>
+    <contextParameter xmi:id="_S00H4d_NEemuSrbyx4Ttsw" comment="" name="J119_SleepTimeInSecs" prompt="J119_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_Sjs6Ad_eEemuSrbyx4Ttsw" comment="" name="J109_SleepTimeInSecs" prompt="J109_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_IjnwMOBiEemus_oXP-GKDA" comment="" name="Match_Master_SleepTimeInSecs" prompt="Match_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_V3RXkeBiEemus_oXP-GKDA" comment="" name="CBR_Master_SleepTimeInSecs" prompt="CBR_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_rMe7Aeq9EemgDcInZnfKUA" comment="" name="NumberOfPipeLines" prompt="NumberOfPipeLines?" promptNeeded="false" type="id_Integer" value="4"/>
+    <contextParameter xmi:id="_hBK4cQTmEeqOSM_gc5KPqQ" comment="" name="Batch_Id" prompt="Batch_Id?" promptNeeded="false" type="id_String" value="8"/>
+    <contextParameter xmi:id="_WRgdETZEEeqPe_wwzQYxeg" comment="" name="BlackListThreshold" prompt="BlackListThreshold?" promptNeeded="false" type="id_Integer" value="15"/>
+    <contextParameter xmi:id="_z1PRQjh0EeqK85pHADP0fw" comment="" name="maxMasterJobIteration" prompt="maxMasterJobIteration?" promptNeeded="false" type="id_Integer" value="10"/>
+    <contextParameter xmi:id="_z1PRQzh0EeqK85pHADP0fw" comment="" name="currentMasterJobiteration" prompt="currentMasterJobiteration?" promptNeeded="false" type="id_Integer" value="1"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_5K_vJNCkEemJaYQIDobe3w" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_5K_vJdCkEemJaYQIDobe3w" comment="" name="Pipeline" prompt="Pipeline?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter xmi:id="_Az95c9TIEemOVYv9xmas7w" comment="" name="LastJob_END" prompt="LastJob_END?" promptNeeded="false" type="id_String" value="Master_Generate_ConsumerBR_END"/>
+    <contextParameter xmi:id="_S00H49_NEemuSrbyx4Ttsw" comment="" name="J119_SleepTimeInSecs" prompt="J119_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_Sjs6A9_eEemuSrbyx4Ttsw" comment="" name="J109_SleepTimeInSecs" prompt="J109_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_IjnwMuBiEemus_oXP-GKDA" comment="" name="Match_Master_SleepTimeInSecs" prompt="Match_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_V3RXk-BiEemus_oXP-GKDA" comment="" name="CBR_Master_SleepTimeInSecs" prompt="CBR_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_rMe7A-q9EemgDcInZnfKUA" comment="" name="NumberOfPipeLines" prompt="NumberOfPipeLines?" promptNeeded="false" type="id_Integer" value="4"/>
+    <contextParameter xmi:id="_hBK4cwTmEeqOSM_gc5KPqQ" comment="" name="Batch_Id" prompt="Batch_Id?" promptNeeded="false" type="id_String" value="13"/>
+    <contextParameter xmi:id="_WRgdEzZEEeqPe_wwzQYxeg" comment="" name="BlackListThreshold" prompt="BlackListThreshold?" promptNeeded="false" type="id_Integer" value="15"/>
+    <contextParameter xmi:id="_z1PRRjh0EeqK85pHADP0fw" comment="" name="maxMasterJobIteration" prompt="maxMasterJobIteration?" promptNeeded="false" type="id_Integer" value="100"/>
+    <contextParameter xmi:id="_z1PRRzh0EeqK85pHADP0fw" comment="" name="currentMasterJobiteration" prompt="currentMasterJobiteration?" promptNeeded="false" type="id_Integer" value="1"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_p7qCkHqXEeqO2qM9-BlsJA" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_p7qCkXqXEeqO2qM9-BlsJA" comment="" name="Pipeline" prompt="Pipeline?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter xmi:id="_p7qCknqXEeqO2qM9-BlsJA" comment="" name="LastJob_END" prompt="LastJob_END?" promptNeeded="false" type="id_String" value="Master_Generate_ConsumerBR_END"/>
+    <contextParameter xmi:id="_p7qCk3qXEeqO2qM9-BlsJA" comment="" name="J119_SleepTimeInSecs" prompt="J119_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_p7qClHqXEeqO2qM9-BlsJA" comment="" name="J109_SleepTimeInSecs" prompt="J109_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_p7qClXqXEeqO2qM9-BlsJA" comment="" name="Match_Master_SleepTimeInSecs" prompt="Match_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_p7qClnqXEeqO2qM9-BlsJA" comment="" name="CBR_Master_SleepTimeInSecs" prompt="CBR_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_p7qCl3qXEeqO2qM9-BlsJA" comment="" name="NumberOfPipeLines" prompt="NumberOfPipeLines?" promptNeeded="false" type="id_Integer" value="4"/>
+    <contextParameter xmi:id="_p7qCmHqXEeqO2qM9-BlsJA" comment="" name="Batch_Id" prompt="Batch_Id?" promptNeeded="false" type="id_String" value="8"/>
+    <contextParameter xmi:id="_p7qCmXqXEeqO2qM9-BlsJA" comment="" name="BlackListThreshold" prompt="BlackListThreshold?" promptNeeded="false" type="id_Integer" value="15"/>
+    <contextParameter xmi:id="_p7qCmnqXEeqO2qM9-BlsJA" comment="" name="maxMasterJobIteration" prompt="maxMasterJobIteration?" promptNeeded="false" type="id_Integer" value="100"/>
+    <contextParameter xmi:id="_p7qCm3qXEeqO2qM9-BlsJA" comment="" name="currentMasterJobiteration" prompt="currentMasterJobiteration?" promptNeeded="false" type="id_Integer" value="1"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_5K_vJtCkEemJaYQIDobe3w" confirmationNeeded="false" name="UAT">
+    <contextParameter xmi:id="_5K_vJ9CkEemJaYQIDobe3w" comment="" name="Pipeline" prompt="Pipeline?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter xmi:id="_Az95dNTIEemOVYv9xmas7w" comment="" name="LastJob_END" prompt="LastJob_END?" promptNeeded="false" type="id_String" value="Master_Generate_ConsumerBR_END"/>
+    <contextParameter xmi:id="_S00H5N_NEemuSrbyx4Ttsw" comment="" name="J119_SleepTimeInSecs" prompt="J119_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_Sjs6BN_eEemuSrbyx4Ttsw" comment="" name="J109_SleepTimeInSecs" prompt="J109_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_IjnwM-BiEemus_oXP-GKDA" comment="" name="Match_Master_SleepTimeInSecs" prompt="Match_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_V3RXlOBiEemus_oXP-GKDA" comment="" name="CBR_Master_SleepTimeInSecs" prompt="CBR_Master_SleepTimeInSecs?" promptNeeded="false" type="id_Integer" value="300"/>
+    <contextParameter xmi:id="_rMe7BOq9EemgDcInZnfKUA" comment="" name="NumberOfPipeLines" prompt="NumberOfPipeLines?" promptNeeded="false" type="id_Integer" value="4"/>
+    <contextParameter xmi:id="_hBK4dATmEeqOSM_gc5KPqQ" comment="" name="Batch_Id" prompt="Batch_Id?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_WRgdFDZEEeqPe_wwzQYxeg" comment="" name="BlackListThreshold" prompt="BlackListThreshold?" promptNeeded="false" type="id_Integer" value="15"/>
+    <contextParameter xmi:id="_z1PRSDh0EeqK85pHADP0fw" comment="" name="maxMasterJobIteration" prompt="maxMasterJobIteration?" promptNeeded="false" type="id_Integer" value="100"/>
+    <contextParameter xmi:id="_z1PRSTh0EeqK85pHADP0fw" comment="" name="currentMasterJobiteration" prompt="currentMasterJobiteration?" promptNeeded="false" type="id_Integer" value="1"/>
+  </talendfile:ContextType>
+</xmi:XMI>

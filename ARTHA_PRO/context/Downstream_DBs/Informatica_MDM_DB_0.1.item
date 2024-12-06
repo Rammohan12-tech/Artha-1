@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_wwc-8ECZEe699LJxJYFrmA" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_wwc-8UCZEe699LJxJYFrmA" comment="" name="InformaticaMDM_AdditionalParams" prompt="InformaticaMDM_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_wwc-8kCZEe699LJxJYFrmA" comment="" name="InformaticaMDM_Port" prompt="InformaticaMDM_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_wwc-80CZEe699LJxJYFrmA" comment="" name="InformaticaMDM_Login" prompt="InformaticaMDM_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="admin_cmdm_core"/>
+    <contextParameter xmi:id="_wwc-9ECZEe699LJxJYFrmA" comment="" name="InformaticaMDM_Password" prompt="InformaticaMDM_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:UIPtjzUrdETLkv5dYTbMjhfANzQGUM45tRj3pkFpQMcW6oxt5OfI/9vnHPM="/>
+    <contextParameter xmi:id="_wwc-9UCZEe699LJxJYFrmA" comment="" name="InformaticaMDM_Database" prompt="InformaticaMDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_wwc-9kCZEe699LJxJYFrmA" comment="" name="InformaticaMDM_Schema" prompt="InformaticaMDM_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="cmx_ors_uat_th"/>
+    <contextParameter xmi:id="_wwc-90CZEe699LJxJYFrmA" comment="" name="InformaticaMDM_Server" prompt="InformaticaMDM_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OBwpoFgDEe6oTLVcx4QhVA" confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter xmi:id="_OBwpoVgDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_AdditionalParams" prompt="InformaticaMDM_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_OBwpolgDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Port" prompt="InformaticaMDM_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_OBwpo1gDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Login" prompt="InformaticaMDM_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="admin_cmdm_core"/>
+    <contextParameter xmi:id="_OBwppFgDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Password" prompt="InformaticaMDM_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:UIPtjzUrdETLkv5dYTbMjhfANzQGUM45tRj3pkFpQMcW6oxt5OfI/9vnHPM="/>
+    <contextParameter xmi:id="_OBwppVgDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Database" prompt="InformaticaMDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_OBwpplgDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Schema" prompt="InformaticaMDM_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="cmx_ors_uat_th"/>
+    <contextParameter xmi:id="_OBwpp1gDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Server" prompt="InformaticaMDM_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OBwpqFgDEe6oTLVcx4QhVA" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_OBwpqVgDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_AdditionalParams" prompt="InformaticaMDM_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_OBwpqlgDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Port" prompt="InformaticaMDM_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_OBwpq1gDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Login" prompt="InformaticaMDM_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="custdbetlusermdm"/>
+    <contextParameter xmi:id="_OBwprFgDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Password" prompt="InformaticaMDM_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:6DObunYghU7hw1wcOtdVkti4SC+UPmn4R120TAe/n3JtNMpsH/aJL2eRktTPKdAJJ4URLw=="/>
+    <contextParameter xmi:id="_OBwprVgDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Database" prompt="InformaticaMDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_OBwprlgDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Schema" prompt="InformaticaMDM_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="cmx_ors_prd_th"/>
+    <contextParameter xmi:id="_OBwpr1gDEe6oTLVcx4QhVA" comment="" name="InformaticaMDM_Server" prompt="InformaticaMDM_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-core-as1-pr-postgres01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com"/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_0i4Q8EbqEe6C65gRJCNusA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_0i4Q8UbqEe6C65gRJCNusA" comment="" name="CustDataHub_AdditionalParams" prompt="CustDataHub_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_0i4Q8kbqEe6C65gRJCNusA" comment="" name="CustDataHub_Login" prompt="CustDataHub_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="admin_cmdm_customerdatahub"/>
+  <contextParameter xmi:id="_0i4Q80bqEe6C65gRJCNusA" comment="" name="CustDataHub_Schema" prompt="CustDataHub_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDMMaster"/>
+  <contextParameter xmi:id="_0i4Q9EbqEe6C65gRJCNusA" comment="" name="CustDataHub_Port" prompt="CustDataHub_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_0i4Q9UbqEe6C65gRJCNusA" comment="" name="CustDataHub_Server" prompt="CustDataHub_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-customerdatahub-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com"/>
+  <contextParameter xmi:id="_0i4Q9kbqEe6C65gRJCNusA" comment="" name="CustDataHub_Password" prompt="CustDataHub_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:6tvacjDc0dw+P6pQ0ttHw5tT78dBDzZhKhP/kito3g1I/BZYCX5feGB4tZE="/>
+  <contextParameter xmi:id="_0i4Q90bqEe6C65gRJCNusA" comment="" name="CustDataHub_Database" prompt="CustDataHub_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+</talendfile:ContextType>

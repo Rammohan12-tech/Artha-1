@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_JZyCQMKwEe2HltkTjkEXnQ" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_JZyCQcKwEe2HltkTjkEXnQ" comment="" name="MDMLite_ConfigDB_Database" prompt="MDMLite_ConfigDB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDM"/>
+    <contextParameter xmi:id="_JZyCQsKwEe2HltkTjkEXnQ" comment="" name="MDMLite_ConfigDB_Port" prompt="MDMLite_ConfigDB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_JZyCQ8KwEe2HltkTjkEXnQ" comment="" name="MDMLite_ConfigDB_AdditionalParams" prompt="MDMLite_ConfigDB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_JZyCRMKwEe2HltkTjkEXnQ" comment="" name="MDMLite_ConfigDB_Password" prompt="MDMLite_ConfigDB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:3Oe8hbJWCNRAlLBFqAGthi0CCMyjBs0IcD71Rfd1sjHQDzCx/2eJLjtydv4="/>
+    <contextParameter xmi:id="_JZyCRcKwEe2HltkTjkEXnQ" comment="" name="MDMLite_ConfigDB_Schema" prompt="MDMLite_ConfigDB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDM"/>
+    <contextParameter xmi:id="_JZyCRsKwEe2HltkTjkEXnQ" comment="" name="MDMLite_ConfigDB_Login" prompt="MDMLite_ConfigDB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="admin_cmdm_app"/>
+    <contextParameter xmi:id="_JZyCR8KwEe2HltkTjkEXnQ" comment="" name="MDMLite_ConfigDB_Server" prompt="MDMLite_ConfigDB_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-application-as1-np-mariadb01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_kcOYEMK0Ee2HltkTjkEXnQ" comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MariaDB"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_7rSKIAxqEe6rVfDsCy1A0A" confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter xmi:id="_7rSKIQxqEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Database" prompt="MDMLite_ConfigDB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDM"/>
+    <contextParameter xmi:id="_7rSKIgxqEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Port" prompt="MDMLite_ConfigDB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_7rSKIwxqEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_AdditionalParams" prompt="MDMLite_ConfigDB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_7rSKJAxqEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Password" prompt="MDMLite_ConfigDB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:MyJ2g/JHH5te30mmB+Um8v5wCUGJU8vh2+vmqOZkrj/rFRqhHx9VG5dUt+8="/>
+    <contextParameter xmi:id="_7rSKJQxqEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Schema" prompt="MDMLite_ConfigDB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDM"/>
+    <contextParameter xmi:id="_7rSKJgxqEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Login" prompt="MDMLite_ConfigDB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="admin_cmdm_app"/>
+    <contextParameter xmi:id="_7rSKJwxqEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Server" prompt="MDMLite_ConfigDB_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-application-as1-np-mariadb01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_7rSKKAxqEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MariaDB"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_SQ7hUAxrEe6rVfDsCy1A0A" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_SQ7hUQxrEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Database" prompt="MDMLite_ConfigDB_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDM"/>
+    <contextParameter xmi:id="_SQ7hUgxrEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Port" prompt="MDMLite_ConfigDB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_SQ7hUwxrEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_AdditionalParams" prompt="MDMLite_ConfigDB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_SQ7hVAxrEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Password" prompt="MDMLite_ConfigDB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:mgVCwhi2PGMk+oslvqSTUb3WfIcMsCgY/zlml6o6HCVV2DIwnbYzauJu3s0E21ZmJ0iAPA=="/>
+    <contextParameter xmi:id="_SQ7hVQxrEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Schema" prompt="MDMLite_ConfigDB_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MDM"/>
+    <contextParameter xmi:id="_SQ7hVgxrEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Login" prompt="MDMLite_ConfigDB_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="custdbetlusermdm"/>
+    <contextParameter xmi:id="_SQ7hVwxrEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_Server" prompt="MDMLite_ConfigDB_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="w-kt-th-cmdm-application-as1-pr-mariadb01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com"/>
+    <contextParameter xmi:id="_SQ7hWAxrEe6rVfDsCy1A0A" comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MariaDB"/>
+  </talendfile:ContextType>
+</xmi:XMI>

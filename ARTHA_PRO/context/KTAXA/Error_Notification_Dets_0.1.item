@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="__ivqgTDLEe-2rezhCUrOZw" name="NON_PROD">
+    <contextParameter xmi:id="__krkMDDLEe-2rezhCUrOZw" comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_i8mvgDDWEe-w1JtVhwTDVw" comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_mqSiMDDWEe-w1JtVhwTDVw" comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ppgFUDDWEe-w1JtVhwTDVw" comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_tQFKcDDWEe-w1JtVhwTDVw" comment="" name="Error_Time" prompt="Error_Time?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="__ivqgjDLEe-2rezhCUrOZw" name="Default">
+    <contextParameter xmi:id="__krkMTDLEe-2rezhCUrOZw" comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_i8mvgTDWEe-w1JtVhwTDVw" comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_mqSiMTDWEe-w1JtVhwTDVw" comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ppgFUTDWEe-w1JtVhwTDVw" comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_tQFKcTDWEe-w1JtVhwTDVw" comment="" name="Error_Time" prompt="Error_Time?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="__ivqgzDLEe-2rezhCUrOZw" name="PROD">
+    <contextParameter xmi:id="__krkMjDLEe-2rezhCUrOZw" comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_i8mvgjDWEe-w1JtVhwTDVw" comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_mqSiMjDWEe-w1JtVhwTDVw" comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ppgFUjDWEe-w1JtVhwTDVw" comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_tQFKcjDWEe-w1JtVhwTDVw" comment="" name="Error_Time" prompt="Error_Time?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

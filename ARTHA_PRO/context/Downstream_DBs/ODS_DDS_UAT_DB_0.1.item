@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_px7c8LA_Ee6Hf7GneTRjIg" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_px7c8bA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Login" prompt="ODS_DDS_UAT_DB_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="TH_USER_UAT_ROLE_EXT"/>
+    <contextParameter xmi:id="_px7c8rA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Port" prompt="ODS_DDS_UAT_DB_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1521"/>
+    <contextParameter xmi:id="_px7c87A_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_ServiceName" prompt="ODS_DDS_UAT_DB_ServiceName?" promptNeeded="false" repositoryContextId="" type="id_String" value="ODSR1U"/>
+    <contextParameter xmi:id="_px7c9LA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Schema" prompt="ODS_DDS_UAT_DB_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="U1SASOBRTH"/>
+    <contextParameter xmi:id="_px7c9bA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Password" prompt="ODS_DDS_UAT_DB_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:prMOylMuxquOS+cyXEcMaWmgjgKjpqGsyu+am+sH5yl/NgIgjMG9gsh0g2scTWk02HRpIIHcNA=="/>
+    <contextParameter xmi:id="_px7c9rA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Server" prompt="ODS_DDS_UAT_DB_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="10.144.128.107"/>
+    <contextParameter xmi:id="_px7c97A_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_AdditionalParams" prompt="ODS_DDS_UAT_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_px7c-LA_Ee6Hf7GneTRjIg" confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter xmi:id="_px7c-bA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Login" prompt="ODS_DDS_UAT_DB_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="TH_USER_UAT_ROLE_EXT"/>
+    <contextParameter xmi:id="_px7c-rA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Port" prompt="ODS_DDS_UAT_DB_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1521"/>
+    <contextParameter xmi:id="_px7c-7A_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_ServiceName" prompt="ODS_DDS_UAT_DB_ServiceName?" promptNeeded="false" repositoryContextId="" type="id_String" value="ODSR1U"/>
+    <contextParameter xmi:id="_px7c_LA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Schema" prompt="ODS_DDS_UAT_DB_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="U1SASOBRTH"/>
+    <contextParameter xmi:id="_px7c_bA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Password" prompt="ODS_DDS_UAT_DB_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:yjtIcKGNpeGchYvGEB9ObX/oK31HscVCc/XZljzXc7plxuBVkF4xpPhdZFizMgOMCCtit9uxYw=="/>
+    <contextParameter xmi:id="_px7c_rA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Server" prompt="ODS_DDS_UAT_DB_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="10.144.128.107"/>
+    <contextParameter xmi:id="_px7c_7A_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_AdditionalParams" prompt="ODS_DDS_UAT_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_px7dALA_Ee6Hf7GneTRjIg" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_px7dAbA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Login" prompt="ODS_DDS_UAT_DB_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="TH_USER_UAT_ROLE_EXT"/>
+    <contextParameter xmi:id="_px7dArA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Port" prompt="ODS_DDS_UAT_DB_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1521"/>
+    <contextParameter xmi:id="_px7dA7A_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_ServiceName" prompt="ODS_DDS_UAT_DB_ServiceName?" promptNeeded="false" repositoryContextId="" type="id_String" value="ODSR1U"/>
+    <contextParameter xmi:id="_px7dBLA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Schema" prompt="ODS_DDS_UAT_DB_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="U1SASOBRTH"/>
+    <contextParameter xmi:id="_px7dBbA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Password" prompt="ODS_DDS_UAT_DB_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:74V3QBrHkCchMJUgfOYKquI66RTjHDydPSCMGaIK/3sM7S5LCzqNC/cQeitz66AUe65FiYa4kQ=="/>
+    <contextParameter xmi:id="_px7dBrA_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_Server" prompt="ODS_DDS_UAT_DB_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="10.144.128.107"/>
+    <contextParameter xmi:id="_px7dB7A_Ee6Hf7GneTRjIg" comment="" name="ODS_DDS_UAT_DB_AdditionalParams" prompt="ODS_DDS_UAT_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

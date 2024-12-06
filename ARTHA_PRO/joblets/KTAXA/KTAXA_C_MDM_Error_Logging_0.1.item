@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore">
+  <model:JobletProcess defaultContext="Default" jobType="Standard">
+    <context confirmationNeeded="false" hide="false" name="Default">
+      <contextParameter comment="" name="C_MDM_ProcessControl_Port" prompt="C_MDM_ProcessControl_Port?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="5432" internalId="_26jjZtVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Login" prompt="C_MDM_ProcessControl_Login?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="admin_cmdm_core" internalId="_26jjZ9VyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_AdditionalParams" prompt="C_MDM_ProcessControl_AdditionalParams?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="" internalId="_26jjaNVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Schema" prompt="C_MDM_ProcessControl_Schema?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="ProcessControl" internalId="_26jjadVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Server" prompt="C_MDM_ProcessControl_Server?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_26jjatVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Database" prompt="C_MDM_ProcessControl_Database?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="postgres" internalId="_26jja9VyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Password" prompt="C_MDM_ProcessControl_Password?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_Password" value="enc:system.encryption.key.v1:p6mXwx2EQbb1aHS/88hLtZeeW8Vsmvlufv5utsEG9gtUo8TWSkH+F1gcgqI=" internalId="_26jjbNVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_clifsP5VEe6DfuT7ovL5qA"/>
+      <contextParameter comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_D2GSkP7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vVRdYP7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ4P-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ4f-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ4v-JEe6EXJk0tua90A"/>
+    </context>
+    <context confirmationNeeded="false" hide="false" name="DEV">
+      <contextParameter comment="" name="C_MDM_ProcessControl_Port" prompt="C_MDM_ProcessControl_Port?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="5432" internalId="_26jjc9VyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Login" prompt="C_MDM_ProcessControl_Login?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="admin_cmdm_core" internalId="_26jjdNVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_AdditionalParams" prompt="C_MDM_ProcessControl_AdditionalParams?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="" internalId="_26jjddVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Schema" prompt="C_MDM_ProcessControl_Schema?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="ProcessControl" internalId="_26jjdtVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Server" prompt="C_MDM_ProcessControl_Server?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_26jjd9VyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Database" prompt="C_MDM_ProcessControl_Database?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="postgres" internalId="_26jjeNVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Password" prompt="C_MDM_ProcessControl_Password?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_Password" value="enc:system.encryption.key.v1:t4214kWo+JYOJ4cQMH6q1XLARkjUtN3zfPlFYLEHfBEpVV9zOT+yh0QqPnc=" internalId="_26jjedVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_clifsf5VEe6DfuT7ovL5qA"/>
+      <contextParameter comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_D2GSkf7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vVRdYf7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ4_-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ5P-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ5f-JEe6EXJk0tua90A"/>
+    </context>
+    <context confirmationNeeded="false" hide="false" name="PROD">
+      <contextParameter comment="" name="C_MDM_ProcessControl_Port" prompt="C_MDM_ProcessControl_Port?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="5432" internalId="_26jjgNVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Login" prompt="C_MDM_ProcessControl_Login?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="custdbetlusermdm" internalId="_26jjgdVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_AdditionalParams" prompt="C_MDM_ProcessControl_AdditionalParams?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="" internalId="_26jjgtVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Schema" prompt="C_MDM_ProcessControl_Schema?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="ProcessControl" internalId="_26jjg9VyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Server" prompt="C_MDM_ProcessControl_Server?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="w-kt-th-cmdm-core-as1-pr-postgres01.cqq4ya5gfuvf.ap-southeast-1.rds.amazonaws.com" internalId="_26jjhNVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Database" prompt="C_MDM_ProcessControl_Database?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="postgres" internalId="_26jjhdVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Password" prompt="C_MDM_ProcessControl_Password?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_Password" value="enc:system.encryption.key.v1:gNFBk/YVzEzKy/K2/k0oRZSJ6PjxuQMEvnhWMD2A7t6cNw778q1RTAgsb4ywWIFD5VVzPQ==" internalId="_26jjhtVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_clifsv5VEe6DfuT7ovL5qA"/>
+      <contextParameter comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_D2HgsP7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vVRdYv7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ5v-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ5_-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ6P-JEe6EXJk0tua90A"/>
+    </context>
+    <context confirmationNeeded="false" hide="false" name="UAT">
+      <contextParameter comment="" name="C_MDM_ProcessControl_Port" prompt="C_MDM_ProcessControl_Port?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="5432" internalId="_26jjjdVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Login" prompt="C_MDM_ProcessControl_Login?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="admin_cmdm_core" internalId="_26jjjtVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_AdditionalParams" prompt="C_MDM_ProcessControl_AdditionalParams?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="" internalId="_26jjj9VyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Schema" prompt="C_MDM_ProcessControl_Schema?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="ProcessControl" internalId="_26jjkNVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Server" prompt="C_MDM_ProcessControl_Server?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_26jjkdVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Database" prompt="C_MDM_ProcessControl_Database?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="postgres" internalId="_26jjktVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Password" prompt="C_MDM_ProcessControl_Password?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_Password" value="enc:system.encryption.key.v1:oyJ/sKOtgkJBFfyRJhNftP4mz0N5+EChrVkdXrlUjsmB8LBD5h+E/8JshpI=" internalId="_26jjk9VyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_clifs_5VEe6DfuT7ovL5qA"/>
+      <contextParameter comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_D2Iu0P7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vVRdY_7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ6f-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ6v-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ6_-JEe6EXJk0tua90A"/>
+    </context>
+    <context confirmationNeeded="false" hide="false" name="DEV_TUNNEL">
+      <contextParameter comment="" name="C_MDM_ProcessControl_Port" prompt="C_MDM_ProcessControl_Port?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="5432" internalId="_26jjmtVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Login" prompt="C_MDM_ProcessControl_Login?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="admin_cmdm_core" internalId="_26jjm9VyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_AdditionalParams" prompt="C_MDM_ProcessControl_AdditionalParams?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="" internalId="_26jjnNVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Schema" prompt="C_MDM_ProcessControl_Schema?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="ProcessControl" internalId="_26jjndVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Server" prompt="C_MDM_ProcessControl_Server?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_26jjntVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Database" prompt="C_MDM_ProcessControl_Database?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="postgres" internalId="_26jjn9VyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Password" prompt="C_MDM_ProcessControl_Password?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_Password" value="enc:system.encryption.key.v1:YPFl2higxmICdJVbL2psJtfdShxkF4QYZY+080yWbbPBjQM5PO0sA0FS+80=" internalId="_26jjoNVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_cliftP5VEe6DfuT7ovL5qA"/>
+      <contextParameter comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_D2Iu0f7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vVRdZP7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ7P-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ7f-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ7v-JEe6EXJk0tua90A"/>
+    </context>
+    <context confirmationNeeded="false" hide="false" name="QA">
+      <contextParameter comment="" name="C_MDM_ProcessControl_Port" prompt="C_MDM_ProcessControl_Port?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="5432" internalId="_26jjp9VyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Login" prompt="C_MDM_ProcessControl_Login?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="admin_cmdm_core" internalId="_26jjqNVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_AdditionalParams" prompt="C_MDM_ProcessControl_AdditionalParams?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="" internalId="_26jjqdVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Schema" prompt="C_MDM_ProcessControl_Schema?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="ProcessControl" internalId="_26jjqtVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Server" prompt="C_MDM_ProcessControl_Server?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_26jjq9VyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Database" prompt="C_MDM_ProcessControl_Database?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="postgres" internalId="_26jjrNVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Password" prompt="C_MDM_ProcessControl_Password?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_Password" value="enc:system.encryption.key.v1:JDNjqn20Km+4uWn9/BugoxHf+hZVZY2xb3ou8yR2+Gp2O5pMxjESrhoyjZ4=" internalId="_26jjrdVyEe2pctSpYpj7Mw"/>
+      <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_cliftf5VEe6DfuT7ovL5qA"/>
+      <contextParameter comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_D2Iu0v7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vVRdZf7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ7_-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ8P-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ8f-JEe6EXJk0tua90A"/>
+    </context>
+    <context confirmationNeeded="false" hide="false" name="NON_PROD">
+      <contextParameter comment="" name="C_MDM_ProcessControl_Port" prompt="C_MDM_ProcessControl_Port?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="5432" internalId="_6NOlMQL9Ee6qqdKvG09KWQ"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Login" prompt="C_MDM_ProcessControl_Login?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="admin_cmdm_core" internalId="_6NN-IgL9Ee6qqdKvG09KWQ"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Schema" prompt="C_MDM_ProcessControl_Schema?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="ProcessControl" internalId="_6NN-IAL9Ee6qqdKvG09KWQ"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_AdditionalParams" prompt="C_MDM_ProcessControl_AdditionalParams?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="" internalId="_6NN-IwL9Ee6qqdKvG09KWQ"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Server" prompt="C_MDM_ProcessControl_Server?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="w-kt-th-cmdm-core-as1-np-postgres01.cdfml5c2tgey.ap-southeast-1.rds.amazonaws.com" internalId="_6NN-IQL9Ee6qqdKvG09KWQ"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Database" prompt="C_MDM_ProcessControl_Database?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_String" value="postgres" internalId="_6NN-JAL9Ee6qqdKvG09KWQ"/>
+      <contextParameter comment="" name="C_MDM_ProcessControl_Password" prompt="C_MDM_ProcessControl_Password?" promptNeeded="false" repositoryContextId="_bmfs8LiBEe2fvrK1lthLOg" type="id_Password" value="enc:system.encryption.key.v1:gieP5baXH6/yZ9FDfZLazb7NLOH/8ij9xPtH6Tfc0fw76Uk5fUo7aGlPW/A=" internalId="_6NOlMAL9Ee6qqdKvG09KWQ"/>
+      <contextParameter comment="" name="Error_Flag" prompt="Error_Flag?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_cliftv5VEe6DfuT7ovL5qA"/>
+      <contextParameter comment="" name="Error_Message" prompt="Error_Message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_D2JV4P7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vVRdZv7mEe6lVZM5i4QMhg"/>
+      <contextParameter comment="" name="Error_Type" prompt="Error_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ8v-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_Origin" prompt="Error_Origin?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ8_-JEe6EXJk0tua90A"/>
+      <contextParameter comment="" name="Error_TimeOf" prompt="Error_TimeOf?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_DVgJ9P-JEe6EXJk0tua90A"/>
+    </context>
+    <parameters>
+      <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false" show="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000" show="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false" show="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/_Workspaces/Estee2/in.csv&quot;" show="false"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+      <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+      <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_12" show="false"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:pxNxFdpfEsluSqQrUJ1WdKPpSmfxNwUXlpxM0oPI" show="false"/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+      <routinesParameter id="_DXcvgCeREe6Wca1QY60H1w" name="DataOperation"/>
+      <routinesParameter id="_DX6pkCeREe6Wca1QY60H1w" name="Mathematical"/>
+      <routinesParameter id="_DYTEECeREe6Wca1QY60H1w" name="Numeric"/>
+      <routinesParameter id="_DYgfcCeREe6Wca1QY60H1w" name="Relational"/>
+      <routinesParameter id="_DUoFACeREe6Wca1QY60H1w" name="SQLike"/>
+      <routinesParameter id="_DY0BcCeREe6Wca1QY60H1w" name="StringHandling"/>
+      <routinesParameter id="_DZEgICeREe6Wca1QY60H1w" name="TalendDataGenerator"/>
+      <routinesParameter id="_DZR7gCeREe6Wca1QY60H1w" name="TalendDate"/>
+      <routinesParameter id="_DZ1VICeREe6Wca1QY60H1w" name="TalendStringUtil"/>
+      <routinesParameter id="_DZhzICeREe6Wca1QY60H1w" name="TalendString"/>
+    </parameters>
+    <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="160">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
+      <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
+      <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
+      <elementParameter field="CHECK" name="CATCH_TWARN" value="false"/>
+      <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" value="true"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tLogCatcher_1">
+        <column key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="3" name="priority" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="255" name="type" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="// code sample:&#xA;//&#xA;// multiply by 2 the row identifier&#xA;// output_row.id = input_row.id * 2;&#xA;//&#xA;// lowercase the name&#xA;// output_row.name = input_row.name.toLowerCase();&#xA;&#xA;context.Error_Flag=true;&#xA;context.Error_Message=row3.message;&#xA;context.Error_Type= row3.type;&#xA;context.Error_Origin=row3.origin;&#xA;context.Error_TimeOf=row3.moment+&quot;&quot;;"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaRow_1">
+        <column key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="160">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;bar&quot;;"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJava_2">
+        <column key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tJavaRow_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tJava_2">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="code"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="father_pid"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="origin"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="context"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="project"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="pid"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="job"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="priority"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="type"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="message"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="root_pid"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="moment"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+    </connection>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+</xmi:XMI>

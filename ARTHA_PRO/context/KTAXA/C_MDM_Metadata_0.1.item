@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_3zvYUGyHEe6JPdJibfKamw" name="Default">
+    <contextParameter xmi:id="_3124MGyHEe6JPdJibfKamw" comment="" name="Data_Model_Name" prompt="Data_Model_Name?" promptNeeded="false" type="id_String" value="KTAXA_C_MDM_Master_Data Model"/>
+    <contextParameter xmi:id="_HIHhUGyIEe6JPdJibfKamw" comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" type="id_String" value="MariaDB"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_3zvYUWyHEe6JPdJibfKamw" name="NON_PROD">
+    <contextParameter xmi:id="_3124MWyHEe6JPdJibfKamw" comment="" name="Data_Model_Name" prompt="Data_Model_Name?" promptNeeded="false" type="id_String" value="KTAXA_C_MDM_Master_Data Model"/>
+    <contextParameter xmi:id="_HIHhUWyIEe6JPdJibfKamw" comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" type="id_String" value="MariaDB"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_3zvYUmyHEe6JPdJibfKamw" name="PROD">
+    <contextParameter xmi:id="_3124MmyHEe6JPdJibfKamw" comment="" name="Data_Model_Name" prompt="Data_Model_Name?" promptNeeded="false" type="id_String" value="KTAXA_C_MDM_Master_Data Model"/>
+    <contextParameter xmi:id="_HIHhUmyIEe6JPdJibfKamw" comment="" name="MDMLite_ConfigDB_DBType" prompt="MDMLite_ConfigDB_DBType?" promptNeeded="false" type="id_String" value="MariaDB"/>
+  </talendfile:ContextType>
+</xmi:XMI>

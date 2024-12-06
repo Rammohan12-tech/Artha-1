@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_KgY6kBbzEe-bXcY7HJ6ohg" confirmationNeeded="false" hide="false" name="NON_PROD">
+    <contextParameter xmi:id="_KivrABbzEe-bXcY7HJ6ohg" comment="" name="DS_ApprovedStatus" prompt="DS_ApprovedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Approved&quot;"/>
+    <contextParameter xmi:id="_jWdcQBbzEe-bXcY7HJ6ohg" comment="" name="DS_NewStatus" prompt="DS_NewStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;New&quot;"/>
+    <contextParameter xmi:id="_jWdcQRbzEe-bXcY7HJ6ohg" comment="" name="DS_DeletedStatus" prompt="DS_DeletedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Deleted&quot;"/>
+    <contextParameter xmi:id="_jWdcQhbzEe-bXcY7HJ6ohg" comment="" name="DS_OpenStatus" prompt="DS_OpenStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Open&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_KgY6kRbzEe-bXcY7HJ6ohg" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_KivrARbzEe-bXcY7HJ6ohg" comment="" name="DS_ApprovedStatus" prompt="DS_ApprovedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Approved&quot;"/>
+    <contextParameter xmi:id="_jWdcQxbzEe-bXcY7HJ6ohg" comment="" name="DS_NewStatus" prompt="DS_NewStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;New&quot;"/>
+    <contextParameter xmi:id="_jWdcRBbzEe-bXcY7HJ6ohg" comment="" name="DS_DeletedStatus" prompt="DS_DeletedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Deleted&quot;"/>
+    <contextParameter xmi:id="_jWdcRRbzEe-bXcY7HJ6ohg" comment="" name="DS_OpenStatus" prompt="DS_OpenStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Open&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_KgY6khbzEe-bXcY7HJ6ohg" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_KivrAhbzEe-bXcY7HJ6ohg" comment="" name="DS_ApprovedStatus" prompt="DS_ApprovedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Approved&quot;"/>
+    <contextParameter xmi:id="_jWdcRhbzEe-bXcY7HJ6ohg" comment="" name="DS_NewStatus" prompt="DS_NewStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;New&quot;"/>
+    <contextParameter xmi:id="_jWdcRxbzEe-bXcY7HJ6ohg" comment="" name="DS_DeletedStatus" prompt="DS_DeletedStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Deleted&quot;"/>
+    <contextParameter xmi:id="_jWdcSBbzEe-bXcY7HJ6ohg" comment="" name="DS_OpenStatus" prompt="DS_OpenStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Open&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>
